@@ -1,0 +1,342 @@
+<?php
+declare(strict_types=1);
+
+/* 
+ * MIT License
+ *
+ * Copyright (c) 2018-present, Marks Software GmbH (https://www.marks-software.de/)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+use Cake\I18n\DateTime;
+use Cake\Utility\Text;
+use Migrations\AbstractSeed;
+
+/**
+ * Class BechlemConnectRequestsSeed
+ */
+class BechlemConnectRequestsSeed extends AbstractSeed
+{
+    /**
+     * Run Method.
+     *
+     * Write your database seeder using this method.
+     *
+     * More information on writing seeds is available here:
+     * https://book.cakephp.org/phinx/0/en/seeding.html
+     *
+     * @return void
+     */
+    public function run(): void
+    {
+        $dateTime = DateTime::now();
+
+        $data = [
+            [
+                'id' => 1,
+                'bechlem_connect_config_id' => 1,
+                'uuid_id' => Text::uuid(),
+                'name' => 'Brand',
+                'slug' => 'brand',
+                'method' => 'GET',
+                'url' => '/api/v12/index.php',
+                'data' => 'brand',
+                'language' => NULL,
+                'options' => NULL,
+                'description' => 'All brand names, original and alternative (Simple table based on Bechlem API V1.2)',
+                'example' => NULL,
+                'log' => 0,
+                'status' => 1,
+                'created' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'created_by' => 1,
+                'modified' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'modified_by' => 1,
+                'deleted' => NULL,
+                'deleted_by' => NULL,
+            ],
+            [
+                'id' => 2,
+                'bechlem_connect_config_id' => 1,
+                'uuid_id' => Text::uuid(),
+                'name' => 'Category',
+                'slug' => 'category',
+                'method' => 'GET',
+                'url' => '/api/v12/index.php',
+                'data' => 'category',
+                'language' => 'en',
+                'options' => NULL,
+                'description' => 'All categories mentioned in table printer and supplies. (Simple table based on Bechlem API V1.2)',
+                'example' => NULL,
+                'log' => 0,
+                'status' => 1,
+                'created' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'created_by' => 1,
+                'modified' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'modified_by' => 1,
+                'deleted' => NULL,
+                'deleted_by' => NULL,
+            ],
+            [
+                'id' => 3,
+                'bechlem_connect_config_id' => 1,
+                'uuid_id' => Text::uuid(),
+                'name' => 'Identifier',
+                'slug' => 'identifier',
+                'method' => 'GET',
+                'url' => '/api/v12/index.php',
+                'data' => 'identifier',
+                'language' => NULL,
+                'options' => NULL,
+                'description' => 'All item identifiers for printers and supplies(EAN, skus, short codes...). (Simple table based on Bechlem API V1.2)',
+                'example' => NULL,
+                'log' => 0,
+                'status' => 1,
+                'created' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'created_by' => 1,
+                'modified' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'modified_by' => 1,
+                'deleted' => NULL,
+                'deleted_by' => NULL,
+            ],
+            [
+                'id' => 4,
+                'bechlem_connect_config_id' => 1,
+                'uuid_id' => Text::uuid(),
+                'name' => 'Printer',
+                'slug' => 'printer',
+                'method' => 'GET',
+                'url' => '/api/v12/index.php',
+                'data' => 'printer',
+                'language' => 'en',
+                'options' => NULL,
+                'description' => 'All printers included in your license. (Simple table based on Bechlem API V1.2)',
+                'example' => NULL,
+                'log' => 0,
+                'status' => 1,
+                'created' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'created_by' => 1,
+                'modified' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'modified_by' => 1,
+                'deleted' => NULL,
+                'deleted_by' => NULL,
+            ],
+            [
+                'id' => 5,
+                'bechlem_connect_config_id' => 1,
+                'uuid_id' => Text::uuid(),
+                'name' => 'Printerseries',
+                'slug' => 'printerseries',
+                'method' => 'GET',
+                'url' => '/api/v12/index.php',
+                'data' => 'printerseries',
+                'language' => NULL,
+                'options' => NULL,
+                'description' => 'All printer series (e.g. Canon Pixma) included in your license. (Simple table based on Bechlem API V1.2)',
+                'example' => NULL,
+                'log' => 0,
+                'status' => 1,
+                'created' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'created_by' => 1,
+                'modified' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'modified_by' => 1,
+                'deleted' => NULL,
+                'deleted_by' => NULL,
+            ],
+            [
+                'id' => 6,
+                'bechlem_connect_config_id' => 1,
+                'uuid_id' => Text::uuid(),
+                'name' => 'Printer2supply',
+                'slug' => 'printer2supply',
+                'method' => 'GET',
+                'url' => '/api/v12/index.php',
+                'data' => 'printer2supply',
+                'language' => NULL,
+                'options' => NULL,
+                'description' => 'Linking printers to supplies by iditem. Creating this file may take longer (>10 sec.). (Simple table based on Bechlem API V1.2)',
+                'example' => NULL,
+                'log' => 0,
+                'status' => 1,
+                'created' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'created_by' => 1,
+                'modified' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'modified_by' => 1,
+                'deleted' => NULL,
+                'deleted_by' => NULL,
+            ],
+            [
+                'id' => 7,
+                'bechlem_connect_config_id' => 1,
+                'uuid_id' => Text::uuid(),
+                'name' => 'Reseller',
+                'slug' => 'reseller',
+                'method' => 'GET',
+                'url' => '/api/v12/index.php',
+                'data' => 'reseller',
+                'language' => NULL,
+                'options' => NULL,
+                'description' => 'All licensed reseller/distributors. (Simple table based on Bechlem API V1.2)',
+                'example' => NULL,
+                'log' => 0,
+                'status' => 1,
+                'created' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'created_by' => 1,
+                'modified' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'modified_by' => 1,
+                'deleted' => NULL,
+                'deleted_by' => NULL,
+            ],
+            [
+                'id' => 8,
+                'bechlem_connect_config_id' => 1,
+                'uuid_id' => Text::uuid(),
+                'name' => 'Reselleritem',
+                'slug' => 'reselleritem',
+                'method' => 'GET',
+                'url' => '/api/v12/index.php',
+                'data' => 'reselleritem',
+                'language' => 'en',
+                'options' => NULL,
+                'description' => 'All linked article numbers of your licensed reseller/distributors. (Simple table based on Bechlem API V1.2)',
+                'example' => NULL,
+                'log' => 0,
+                'status' => 1,
+                'created' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'created_by' => 1,
+                'modified' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'modified_by' => 1,
+                'deleted' => NULL,
+                'deleted_by' => NULL,
+            ],
+            [
+                'id' => 9,
+                'bechlem_connect_config_id' => 1,
+                'uuid_id' => Text::uuid(),
+                'name' => 'Supply',
+                'slug' => 'supply',
+                'method' => 'GET',
+                'url' => '/api/v12/index.php',
+                'data' => 'supply',
+                'language' => 'en',
+                'options' => NULL,
+                'description' => 'All supplies, original and alternative included in your license. (Simple table based on Bechlem API V1.2)',
+                'example' => NULL,
+                'log' => 0,
+                'status' => 1,
+                'created' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'created_by' => 1,
+                'modified' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'modified_by' => 1,
+                'deleted' => NULL,
+                'deleted_by' => NULL,
+            ],
+            [
+                'id' => 10,
+                'bechlem_connect_config_id' => 1,
+                'uuid_id' => Text::uuid(),
+                'name' => 'Supplyseries',
+                'slug' => 'supplyseries',
+                'method' => 'GET',
+                'url' => '/api/v12/index.php',
+                'data' => 'supplyseries',
+                'language' => NULL,
+                'options' => NULL,
+                'description' => 'All supply series (e.g. Kyocera TK-5305) included in your license. (Simple table based on Bechlem API V1.2)',
+                'example' => NULL,
+                'log' => 0,
+                'status' => 1,
+                'created' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'created_by' => 1,
+                'modified' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'modified_by' => 1,
+                'deleted' => NULL,
+                'deleted_by' => NULL,
+            ],
+            [
+                'id' => 11,
+                'bechlem_connect_config_id' => 1,
+                'uuid_id' => Text::uuid(),
+                'name' => 'Supply2oemreference',
+                'slug' => 'supply2oemreference',
+                'method' => 'GET',
+                'url' => '/api/v12/index.php',
+                'data' => 'supply2oemreference',
+                'language' => NULL,
+                'options' => NULL,
+                'description' => 'Linking compatible supplies to their OEM reference (Original supply item). Since many supplies have multiple OEM references, this table is separate. (Simple table based on Bechlem API V1.2)',
+                'example' => NULL,
+                'log' => 0,
+                'status' => 1,
+                'created' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'created_by' => 1,
+                'modified' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'modified_by' => 1,
+                'deleted' => NULL,
+                'deleted_by' => NULL,
+            ],
+            [
+                'id' => 12,
+                'bechlem_connect_config_id' => 1,
+                'uuid_id' => Text::uuid(),
+                'name' => 'Supply2supply',
+                'slug' => 'supply2supply',
+                'method' => 'GET',
+                'url' => '/api/v12/index.php',
+                'data' => 'supply2supply',
+                'language' => NULL,
+                'options' => NULL,
+                'description' => 'Linking supplies to all other supplies by iditem which also fit together with or instead of the chosen supply (CrossSelling). Creating this file may take longer (>15 sec.). (Simple table based on Bechlem API V1.2)',
+                'example' => NULL,
+                'log' => 0,
+                'status' => 1,
+                'created' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'created_by' => 1,
+                'modified' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'modified_by' => 1,
+                'deleted' => NULL,
+                'deleted_by' => NULL,
+            ],
+            [
+                'id' => 13,
+                'bechlem_connect_config_id' => 1,
+                'uuid_id' => Text::uuid(),
+                'name' => 'Picture',
+                'slug' => 'picture',
+                'method' => 'GET',
+                'url' => '/api/v12/index.php',
+                'data' => 'picture',
+                'language' => NULL,
+                'options' => NULL,
+                'description' => 'All picture numbers linked to printers, supplies and brands. (Simple table based on Bechlem API V1.2)',
+                'example' => NULL,
+                'log' => 0,
+                'status' => 1,
+                'created' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'created_by' => 1,
+                'modified' => $dateTime->i18nFormat('yyyy-MM-dd HH:mm:ss'),
+                'modified_by' => 1,
+                'deleted' => NULL,
+                'deleted_by' => NULL,
+            ],
+        ];
+
+        $table = $this->table('bechlem_connect_requests');
+        $table->insert($data)->save();
+    }
+}

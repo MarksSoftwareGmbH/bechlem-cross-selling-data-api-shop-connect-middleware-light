@@ -1,0 +1,44 @@
+{
+    "name": "marks-software-gmbh/bechlem-connect-light",
+    "type": "cakephp-plugin",
+    "description": "Bechlem CrossSellingData REST API and Shop Connect Middleware Light for Free plugin for CakePHP",
+    "keywords": [
+        "cms",
+        "content-management-system",
+        "framework",
+        "mvc",
+        "rapid-development",
+        "conventions over configuration",
+        "dry",
+        "orm",
+        "form",
+        "validation",
+        "psr-7"
+    ],
+    "authors": [
+        {
+            "name": "Marks Software GmbH - Lukas Marks",
+            "email": "info@marks-software.de",
+            "homepage": "https://www.marks-software.de"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=8.1",
+        "cakephp/cakephp": "^5.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BechlemConnectLight\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BechlemConnectLight\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}

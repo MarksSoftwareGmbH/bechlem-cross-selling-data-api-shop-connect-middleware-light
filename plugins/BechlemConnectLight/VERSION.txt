@@ -1,0 +1,18 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+// +--------------------------------------------------------------------------------------------+ //
+// Bechlem Connect Light Version
+//
+// Holds a static string representing the current version of Bechlem Connect Light plugin for CakePHP
+//
+// Copyright (c) 2018-present, Marks Software GmbH (https://www.marks-software.de/)
+//
+// Licensed under The MIT License
+// Redistributions of files must retain the above copyright notice.
+//
+// @copyright     Copyright (c) Marks Software GmbH (https://www.marks-software.de)
+// @link          https://www.marks-software.de
+// @since         v 0.0.1
+// @license       https://opensource.org/licenses/mit-license.php MIT License
+// +--------------------------------------------------------------------------------------------+ //
+////////////////////////////////////////////////////////////////////////////////////////////////////
+1.0.0

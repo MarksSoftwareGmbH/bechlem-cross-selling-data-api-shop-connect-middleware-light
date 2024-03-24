@@ -1,0 +1,79 @@
+/* 
+ * MIT License
+ *
+ * Copyright (c) 2018-present, Marks Software GmbH (https://www.marks-software.de/)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #6c757d;
+}
+.nav-pills .nav-link:not(.active):hover {
+    color: #6c757d;
+}
+.user-block img {
+    float: left;
+    height: 80px;
+    width: 80px;
+}
+.img-bordered-sm {
+    border: 1px solid #adb5bd;
+    padding: 1px;
+}
+.user-block .comment,
+.user-block .description,
+.user-block .username {
+    display: block;
+    margin-left: 100px;
+}
+hr.dashed {
+    border-top: 2px dashed #666;
+}
+hr.dotted {
+    border-top: 2px dotted #666;
+}
+hr.solid {
+    border-top: 2px solid #666;
+}
+hr.hr-text {
+    position: relative;
+    border: none;
+    height: 1px;
+    background: #666;
+    margin-bottom: 30px;
+}
+hr.hr-text::before {
+    content: attr(data-content);
+    display: inline-block;
+    background: #fff;
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: #666;
+    border-radius: 30rem;
+    padding: 0.2rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.full-width-image {
+    width: 100%;
+}

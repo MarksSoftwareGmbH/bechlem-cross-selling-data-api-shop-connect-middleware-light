@@ -1,0 +1,26 @@
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+
+# Uncomment the following to prevent the httpoxy vulnerability
+# See: https://httpoxy.org/
+#<IfModule mod_headers.c>
+#    RequestHeader unset Proxy
+#</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    # Force SSL
+    # RewriteCond %{HTTPS} !^on [OR]
+    # RewriteCond %{HTTP_HOST} ^www\. [NC]
+    # RewriteRule ^(.*)$ https://your-domain.tld/$1 [R=301,L]
+
+    # PHP Info
+    RewriteRule   ^phpinfo.php - [L]
+
+    # Robots
+    # RewriteRule   ^robots.txt - [L]
+
+    RewriteRule    ^(\.well-known/.*)$ $1 [L]
+    RewriteRule    ^$    webroot/    [L]
+    RewriteRule    (.*) webroot/$1    [L]
+</IfModule>
