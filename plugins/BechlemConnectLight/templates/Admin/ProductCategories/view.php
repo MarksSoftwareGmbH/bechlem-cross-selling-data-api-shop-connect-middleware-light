@@ -121,13 +121,13 @@ $this->Breadcrumbs->add([
                             -
                         <?php endif; ?>
                     </dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Foreign Key'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Foreign key'); ?></dt>
                     <dd class="col-sm-9"><?= empty($productCategory->foreign_key)? '-': h($productCategory->foreign_key); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Name'); ?></dt>
                     <dd class="col-sm-9"><?= empty($productCategory->name)? '-': h($productCategory->name); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Slug'); ?></dt>
                     <dd class="col-sm-9"><?= empty($productCategory->slug)? '-': h($productCategory->slug); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Background Image'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Background image'); ?></dt>
                     <dd class="col-sm-9"><?= empty($productCategory->background_image)? '-': h($productCategory->background_image); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Left'); ?></dt>
                     <dd class="col-sm-9"><?= empty($productCategory->lft)? '-': $this->Number->format($productCategory->lft); ?></dd>
@@ -149,12 +149,12 @@ $this->Breadcrumbs->add([
                 </dl>
                 <hr />
                 <dl>
-                    <dt><?= __d('bechlem_connect_light', 'Meta Description'); ?></dt>
+                    <dt><?= __d('bechlem_connect_light', 'Meta description'); ?></dt>
                     <dd><?= $this->Text->autoParagraph($productCategory->meta_description); ?></dd>
                 </dl>
                 <hr />
                 <dl>
-                    <dt><?= __d('bechlem_connect_light', 'Meta Keywords'); ?></dt>
+                    <dt><?= __d('bechlem_connect_light', 'Meta keywords'); ?></dt>
                     <dd><?= $this->Text->autoParagraph($productCategory->meta_keywords); ?></dd>
                 </dl>
                 <hr/>

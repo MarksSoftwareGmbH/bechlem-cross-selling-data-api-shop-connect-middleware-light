@@ -113,7 +113,7 @@ $this->Breadcrumbs->add([
                     <dd class="col-sm-9"><?= empty($productTypeAttribute->title)? '-': h($productTypeAttribute->title); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Alias'); ?></dt>
                     <dd class="col-sm-9"><?= empty($productTypeAttribute->alias)? '-': h($productTypeAttribute->alias); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Empty Value'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Empty value'); ?></dt>
                     <dd class="col-sm-9"><?= $this->BechlemConnectLight->status(h($productTypeAttribute->empty_value)); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'WYSIWYG'); ?></dt>
                     <dd class="col-sm-9"><?= $this->BechlemConnectLight->status(h($productTypeAttribute->wysiwyg)); ?></dd>
@@ -130,7 +130,7 @@ $this->Breadcrumbs->add([
                 <hr />
                 <?php if (!empty($productTypeAttribute->product_type_attribute_choices)): ?>
                     <dl>
-                        <dt><?= __d('bechlem_connect_light', 'Type Attribute Choices'); ?></dt>
+                        <dt><?= __d('bechlem_connect_light', 'Type attribute choices'); ?></dt>
                         <dd>
                             <div class="row">
                                 <div class="col-md-6">

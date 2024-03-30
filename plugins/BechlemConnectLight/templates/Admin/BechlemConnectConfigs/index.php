@@ -67,7 +67,7 @@ $this->Breadcrumbs->add([
                     'label'         => false,
                     'placeholder'   => __d('bechlem_connect_light', 'Search') . '...',
                     'prepend'       => $this->Html->link(
-                        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add Config'),
+                        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add config'),
                         [
                             'plugin'        => 'BechlemConnectLight',
                             'controller'    => 'BechlemConnectConfigs',

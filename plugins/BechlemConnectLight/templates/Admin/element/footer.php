@@ -37,7 +37,7 @@ use Cake\Core\Configure;
                 ['target' => '_blank', 'escapeTitle' => false]
             ),
         ]); ?></strong>
-    <?= __d('bechlem_connect_light', 'All Rights Reserved.'); ?>
+    <?= __d('bechlem_connect_light', 'All rights reserved.'); ?>
     <div class="float-right d-none d-sm-inline-block">
         <b><?= __d('bechlem_connect_light', 'Powered by {bechlemConnectLight}', ['bechlemConnectLight' => 'BECHLEM CONNECT LIGHT']); ?></b>
         v<?= Configure::version(); ?>

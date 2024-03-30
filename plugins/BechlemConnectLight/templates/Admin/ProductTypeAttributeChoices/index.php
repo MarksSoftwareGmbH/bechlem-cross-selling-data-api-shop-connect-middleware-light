@@ -67,7 +67,7 @@ $this->Breadcrumbs->add([
                     'label'         => false,
                     'placeholder'   => __d('bechlem_connect_light', 'Search') . '...',
                     'prepend'       => $this->Html->link(
-                        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add Type Attribute Choice'),
+                        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add type attribute choice'),
                         [
                             'plugin'        => 'BechlemConnectLight',
                             'controller'    => 'ProductTypeAttributeChoices',
@@ -184,7 +184,7 @@ $this->Breadcrumbs->add([
                 <table class="table table-hover text-nowrap">
                     <thead>
                     <tr>
-                        <th><?= $this->Paginator->sort('ProductTypeAttributes.alias', __d('bechlem_connect_light', 'Type Attribute')); ?></th>
+                        <th><?= $this->Paginator->sort('ProductTypeAttributes.alias', __d('bechlem_connect_light', 'Type attribute')); ?></th>
                         <th><?= $this->Paginator->sort('value', __d('bechlem_connect_light', 'Value')); ?></th>
                         <th class="actions"><?= __d('bechlem_connect_light', 'Actions'); ?></th>
                     </tr>

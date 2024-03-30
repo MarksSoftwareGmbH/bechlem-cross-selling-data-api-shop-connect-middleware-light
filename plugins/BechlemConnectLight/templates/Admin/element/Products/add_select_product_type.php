@@ -26,7 +26,7 @@
 ?>
 <div class="input-group-prepend">
     <?= $this->Html->link(
-        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add Product'),
+        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add product'),
         [
             'plugin'            => 'BechlemConnectLight',
             'controller'        => 'Products',
@@ -41,7 +41,7 @@
 </div>
 <div class="input-group-prepend">
     <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <?= $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add by Type'); ?>
+        <?= $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add by type'); ?>
     </button>
     <div class="dropdown-menu">
         <?php foreach ($productTypes as $alias => $title): ?>

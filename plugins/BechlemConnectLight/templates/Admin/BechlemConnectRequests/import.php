@@ -82,7 +82,7 @@ $this->Breadcrumbs->add([
                 <?= $this->Form->control('file', [
                     'type'      => 'file',
                     'accept'    => 'text/comma-separated-values,text/csv,application/csv',
-                    'label'     => __d('bechlem_connect_light', 'Select File'),
+                    'label'     => __d('bechlem_connect_light', 'Select file'),
                     'required'  => true,
                     'help'      => __d('bechlem_connect_light', 'Please use a valid csv file.')
                 ]); ?>

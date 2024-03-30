@@ -175,8 +175,8 @@ $this->Breadcrumbs->add([
                 <table class="table table-hover text-nowrap">
                     <thead>
                     <tr>
-                        <th><?= $this->Paginator->sort('id_item_printer', __d('bechlem_connect_light', 'Id Item Printer')); ?></th>
-                        <th><?= $this->Paginator->sort('id_item_supply', __d('bechlem_connect_light', 'Id Item Supply')); ?></th>
+                        <th><?= $this->Paginator->sort('id_item_printer', __d('bechlem_connect_light', 'Id item printer')); ?></th>
+                        <th><?= $this->Paginator->sort('id_item_supply', __d('bechlem_connect_light', 'Id item supply')); ?></th>
                         <th><?= $this->Paginator->sort('modified', __d('bechlem_connect_light', 'Modified')); ?></th>
                         <th class="actions"><?= __d('bechlem_connect_light', 'Actions'); ?></th>
                     </tr>

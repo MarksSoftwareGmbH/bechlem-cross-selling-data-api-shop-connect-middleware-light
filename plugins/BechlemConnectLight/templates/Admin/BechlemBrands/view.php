@@ -106,13 +106,13 @@ $this->Breadcrumbs->add([
                 <dl class="row">
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemBrand->id)? '-': h($bechlemBrand->id); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Brand'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id brand'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemBrand->id_brand)? '-': h($bechlemBrand->id_brand); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Name'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemBrand->name)? '-': h($bechlemBrand->name); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Upper Name'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Upper name'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemBrand->upper_name)? '-': h($bechlemBrand->upper_name); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Par Brand'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id par brand'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemBrand->id_par_brand)? '-': h($bechlemBrand->id_par_brand); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Importance'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemBrand->importance)? '-': h($bechlemBrand->importance); ?></dd>

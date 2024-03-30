@@ -26,7 +26,7 @@
 ?>
 <div class="input-group-prepend">
     <?= $this->Html->link(
-        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add Request'),
+        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add request'),
         [
             'plugin'        => 'BechlemConnectLight',
             'controller'    => 'BechlemConnectRequests',

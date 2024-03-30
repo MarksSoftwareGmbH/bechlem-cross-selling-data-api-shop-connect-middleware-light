@@ -106,17 +106,17 @@ $this->Breadcrumbs->add([
                 <dl class="row">
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id'); ?></dt>
                     <dd class="col-sm-9"><?= h($bechlemSupplyToOemReference->id); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Item Supply'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id item supply'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemSupplyToOemReference->id_item_supply)? '-': h($bechlemSupplyToOemReference->id_item_supply); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Item Supply Oem'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id item supply oem'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemSupplyToOemReference->id_item_supply_oem)? '-': h($bechlemSupplyToOemReference->id_item_supply_oem); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Brand'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id brand'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemSupplyToOemReference->id_brand)? '-': h($bechlemSupplyToOemReference->id_brand); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Brand'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemSupplyToOemReference->brand)? '-': h($bechlemSupplyToOemReference->brand); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Art. Nr.'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Art. nr'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemSupplyToOemReference->art_nr)? '-': h($bechlemSupplyToOemReference->art_nr); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Part Nr.'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Part nr'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemSupplyToOemReference->part_nr)? '-': h($bechlemSupplyToOemReference->part_nr); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Yield'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemSupplyToOemReference->yield)? '-': h($bechlemSupplyToOemReference->yield); ?></dd>

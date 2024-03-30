@@ -106,21 +106,21 @@ $this->Breadcrumbs->add([
                 <dl class="row">
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id'); ?></dt>
                     <dd class="col-sm-9"><?= h($bechlemPrinter->id); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Item'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id item'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemPrinter->id_item)? '-': h($bechlemPrinter->id_item); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Brand'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id brand'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemPrinter->id_brand)? '-': h($bechlemPrinter->id_brand); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Brand'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemPrinter->brand)? '-': h($bechlemPrinter->brand); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Art Nr'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Art nr'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemPrinter->art_nr)? '-': h($bechlemPrinter->art_nr); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Name'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemPrinter->name)? '-': h($bechlemPrinter->name); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Category'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id category'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemPrinter->id_category)? '-': h($bechlemPrinter->id_category); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Category'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemPrinter->category)? '-': h($bechlemPrinter->category); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Printer Series'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Printer series'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemPrinter->printer_series)? '-': h($bechlemPrinter->printer_series); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'EAN'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemPrinter->ean)? '-': h($bechlemPrinter->ean); ?></dd>

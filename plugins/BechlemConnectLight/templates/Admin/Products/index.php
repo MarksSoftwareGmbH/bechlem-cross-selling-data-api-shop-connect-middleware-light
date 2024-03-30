@@ -169,13 +169,13 @@ $this->Breadcrumbs->add([
                         <th><?= $this->Paginator->sort('ProductTypes.title', __d('bechlem_connect_light', 'Type')); ?></th>
                         <th><?= $this->Paginator->sort('ProductConditions.title', __d('bechlem_connect_light', 'Condition')); ?></th>
                         <th><?= $this->Paginator->sort('ProductManufacturers.title', __d('bechlem_connect_light', 'Manufacturer')); ?></th>
-                        <th><?= $this->Paginator->sort('foreign_key', __d('bechlem_connect_light', 'Foreign Key')); ?></th>
+                        <th><?= $this->Paginator->sort('foreign_key', __d('bechlem_connect_light', 'Foreign key')); ?></th>
                         <th><?= $this->Paginator->sort('sku', __d('bechlem_connect_light', 'SKU')); ?></th>
                         <th><?= $this->Paginator->sort('manufacturer_sku', __d('bechlem_connect_light', 'OEM')); ?></th>
                         <th><?= $this->Paginator->sort('ean', __d('bechlem_connect_light', 'EAN')); ?></th>
                         <th><?= $this->Paginator->sort('name', __d('bechlem_connect_light', 'Name')); ?></th>
                         <th><?= $this->Paginator->sort('promote', __d('bechlem_connect_light', 'Promote')); ?></th>
-                        <th><?= $this->Paginator->sort('promote_new', __d('bechlem_connect_light', 'Promote New')); ?></th>
+                        <th><?= $this->Paginator->sort('promote_new', __d('bechlem_connect_light', 'Promote new')); ?></th>
                         <th><?= $this->Paginator->sort('status', __d('bechlem_connect_light', 'Status')); ?></th>
                         <th><?= $this->Paginator->sort('modified', __d('bechlem_connect_light', 'Modified')); ?></th>
                         <th><?= __d('bechlem_connect_light', 'Actions'); ?></th>

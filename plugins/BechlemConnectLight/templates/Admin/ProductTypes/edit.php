@@ -49,7 +49,7 @@ $this->Breadcrumbs->add([
             'action'        => 'index',
         ]
     ],
-    ['title' => __d('bechlem_connect_light', 'Edit Product Type')],
+    ['title' => __d('bechlem_connect_light', 'Edit product type')],
     ['title' => h($productType->title)]
 ]); ?>
 
@@ -59,7 +59,7 @@ $this->Breadcrumbs->add([
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">
-                    <?= $this->Html->icon('edit'); ?> <?= __d('bechlem_connect_light', 'Edit Product Type'); ?>
+                    <?= $this->Html->icon('edit'); ?> <?= __d('bechlem_connect_light', 'Edit product type'); ?>
                 </h3>
             </div>
             <div class="card-body">

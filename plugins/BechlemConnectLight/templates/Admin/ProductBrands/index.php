@@ -67,7 +67,7 @@ $this->Breadcrumbs->add([
                     'label'         => false,
                     'placeholder'   => __d('bechlem_connect_light', 'Search') . '...',
                     'prepend'       => $this->Html->link(
-                        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add Product Brand'),
+                        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add product brand'),
                         [
                             'plugin'        => 'BechlemConnectLight',
                             'controller'    => 'ProductBrands',
@@ -185,7 +185,7 @@ $this->Breadcrumbs->add([
                     <thead>
                     <tr>
                         <th><?= $this->Paginator->sort('logo', __d('bechlem_connect_light', 'Logo')); ?></th>
-                        <th><?= $this->Paginator->sort('foreign_key', __d('bechlem_connect_light', 'Foreign Key')); ?></th>
+                        <th><?= $this->Paginator->sort('foreign_key', __d('bechlem_connect_light', 'Foreign key')); ?></th>
                         <th><?= $this->Paginator->sort('name', __d('bechlem_connect_light', 'Name')); ?></th>
                         <th><?= $this->Paginator->sort('slug', __d('bechlem_connect_light', 'Slug')); ?></th>
                         <th><?= $this->Paginator->sort('website', __d('bechlem_connect_light', 'Website')); ?></th>

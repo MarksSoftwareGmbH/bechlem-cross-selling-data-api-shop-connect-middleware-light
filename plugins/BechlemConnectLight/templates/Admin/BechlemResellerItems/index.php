@@ -175,11 +175,11 @@ $this->Breadcrumbs->add([
                 <table class="table table-hover text-nowrap">
                     <thead>
                     <tr>
-                        <th><?= $this->Paginator->sort('id_art_nr', __d('bechlem_connect_light', 'Id Art Nr')); ?></th>
-                        <th><?= $this->Paginator->sort('id_reseller', __d('bechlem_connect_light', 'Id Reseller')); ?></th>
-                        <th><?= $this->Paginator->sort('id_item', __d('bechlem_connect_light', 'Id Item')); ?></th>
+                        <th><?= $this->Paginator->sort('id_art_nr', __d('bechlem_connect_light', 'Id art nr')); ?></th>
+                        <th><?= $this->Paginator->sort('id_reseller', __d('bechlem_connect_light', 'Id reseller')); ?></th>
+                        <th><?= $this->Paginator->sort('id_item', __d('bechlem_connect_light', 'Id item')); ?></th>
                         <th><?= $this->Paginator->sort('ean', __d('bechlem_connect_light', 'EAN')); ?></th>
-                        <th><?= $this->Paginator->sort('oem_nr', __d('bechlem_connect_light', 'OEM Nr')); ?></th>
+                        <th><?= $this->Paginator->sort('oem_nr', __d('bechlem_connect_light', 'OEM nr')); ?></th>
                         <th><?= $this->Paginator->sort('language', __d('bechlem_connect_light', 'Language')); ?></th>
                         <th><?= $this->Paginator->sort('modified', __d('bechlem_connect_light', 'Modified')); ?></th>
                         <th class="actions"><?= __d('bechlem_connect_light', 'Actions'); ?></th>

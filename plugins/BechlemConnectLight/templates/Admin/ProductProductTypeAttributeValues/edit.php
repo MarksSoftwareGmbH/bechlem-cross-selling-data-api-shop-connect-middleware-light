@@ -41,7 +41,7 @@ $this->Breadcrumbs->add([
             'action'        => 'index',
         ]
     ],
-    ['title' => __d('bechlem_connect_light', 'Edit Type Attribute Value')],
+    ['title' => __d('bechlem_connect_light', 'Edit type attribute value')],
     ['title' => $this->Text->truncate(h($productProductTypeAttributeValue->value), 35, ['ellipsis' => '...', 'exact' => false])]
 ]); ?>
 
@@ -51,7 +51,7 @@ $this->Breadcrumbs->add([
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">
-                    <?= $this->Html->icon('edit'); ?> <?= __d('bechlem_connect_light', 'Edit Type Attribute Value'); ?>
+                    <?= $this->Html->icon('edit'); ?> <?= __d('bechlem_connect_light', 'Edit type attribute value'); ?>
                 </h3>
             </div>
             <div class="card-body">

@@ -107,7 +107,7 @@ $this->Breadcrumbs->add([
                 <dl class="row">
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id'); ?></dt>
                     <dd class="col-sm-9"><?= h($productTypeAttributeChoice->id); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Type Option'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Type option'); ?></dt>
                     <dd class="col-sm-9">
                         <?php if (!empty($productTypeAttributeChoice->product_type_attribute->title_alias)): ?>
                             <?= $productTypeAttributeChoice->has('product_type_attribute')?

@@ -136,7 +136,7 @@ $this->Breadcrumbs->add([
                             -
                         <?php endif; ?>
                     </dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Delivery Time'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Delivery time'); ?></dt>
                     <dd class="col-sm-9">
                         <?php if (!empty($product->product_delivery_time->title)): ?>
                             <?= $product->has('product_delivery_time')?
@@ -164,7 +164,7 @@ $this->Breadcrumbs->add([
                             -
                         <?php endif; ?>
                     </dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Tax Class'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Tax class'); ?></dt>
                     <dd class="col-sm-9">
                         <?php if (!empty($product->product_tax_class->title)): ?>
                             <?= $product->has('product_tax_class')?
@@ -208,21 +208,21 @@ $this->Breadcrumbs->add([
                             -
                         <?php endif; ?>
                     </dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Foreign Key'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Foreign key'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->foreign_key)? '-': h($product->foreign_key); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Employee Key'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Employee key'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->employee_key)? '-': h($product->employee_key); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Manufacturer Key'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Manufacturer key'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->manufacturer_key)? '-': h($product->manufacturer_key); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Manufacturer'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->manufacturer)? '-': h($product->manufacturer); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Category Key'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Category key'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->category_key)? '-': h($product->category_key); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Category'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->category)? '-': h($product->category); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'SKU'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->sku)? '-': h($product->sku); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Manufacturer SKU'); ?> (<?= __d('bechlem_connect_light', 'OEM'); ?>)</dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Manufacturer sku'); ?> (<?= __d('bechlem_connect_light', 'OEM'); ?>)</dt>
                     <dd class="col-sm-9"><?= empty($product->manufacturer_sku)? '-': h($product->manufacturer_sku); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'EAN'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->ean)? '-': h($product->ean); ?></dd>
@@ -242,17 +242,17 @@ $this->Breadcrumbs->add([
                     <dd class="col-sm-9"><?= $this->BechlemConnectLight->status(h($product->promote)); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Promote') . ' ' . __d('bechlem_connect_light', 'Position'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->promote_position)? '-': h($product->promote_position); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Promote New') . ' ' . __d('bechlem_connect_light', 'Start'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Promote new') . ' ' . __d('bechlem_connect_light', 'Start'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->promote_new_start)? '-': h($product->promote_new_start->format('d.m.Y H:i:s')); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Promote New') . ' ' . __d('bechlem_connect_light', 'End'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Promote new') . ' ' . __d('bechlem_connect_light', 'End'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->promote_new_end)? '-': h($product->promote_new_end->format('d.m.Y H:i:s')); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Promote New'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Promote new'); ?></dt>
                     <dd class="col-sm-9"><?= $this->BechlemConnectLight->status(h($product->promote_new)); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Promote New') . ' ' . __d('bechlem_connect_light', 'Position'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Promote new') . ' ' . __d('bechlem_connect_light', 'Position'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->promote_new_position)? '-': h($product->promote_new_position); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Status'); ?></dt>
                     <dd class="col-sm-9"><?= $this->BechlemConnectLight->status(h($product->status)); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'View Counter'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'View counter'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->view_counter)? '0': h($product->view_counter); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Created'); ?></dt>
                     <dd class="col-sm-9"><?= empty($product->created)? '-': h($product->created->format('d.m.Y H:i:s')); ?></dd>
@@ -273,7 +273,7 @@ $this->Breadcrumbs->add([
                 </dl>
                 <hr/>
                 <dl>
-                    <dt><?= __d('bechlem_connect_light', 'Type Attributes'); ?></dt>
+                    <dt><?= __d('bechlem_connect_light', 'Type attributes'); ?></dt>
                     <dd>
                         <div class="row">
                             <div class="col-md-6">

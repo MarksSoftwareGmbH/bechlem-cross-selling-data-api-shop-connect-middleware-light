@@ -126,7 +126,7 @@ $this->Breadcrumbs->add([
                             -
                         <?php endif; ?>
                     </dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Type Option'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Type option'); ?></dt>
                     <dd class="col-sm-9">
                         <?php if (!empty($productProductTypeAttributeValue->product_type_attribute->alias)): ?>
                             <?= $productProductTypeAttributeValue->has('product_type_attribute')?

@@ -106,9 +106,9 @@ $this->Breadcrumbs->add([
                 <dl class="row">
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id'); ?></dt>
                     <dd class="col-sm-9"><?= h($bechlemProductAccessory->id); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Bechlem Product Id'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Bechlem product id'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProductAccessory->bechlem_product_id)? '-': h($bechlemProductAccessory->bechlem_product_id); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Referenced Product Id'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Referenced product id'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProductAccessory->referenced_product_id)? '-': h($bechlemProductAccessory->referenced_product_id); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Type'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProductAccessory->type)? '-': h($bechlemProductAccessory->type); ?></dd>

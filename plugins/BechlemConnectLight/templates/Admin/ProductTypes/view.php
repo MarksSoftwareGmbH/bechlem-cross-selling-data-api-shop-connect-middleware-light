@@ -125,7 +125,7 @@ $this->Breadcrumbs->add([
                 </dl>
                 <hr />
                 <dl>
-                    <dt><?= __d('bechlem_connect_light', 'Product Type Attributes'); ?></dt>
+                    <dt><?= __d('bechlem_connect_light', 'Product type attributes'); ?></dt>
                     <dd>
                         <div class="row">
                             <div class="col-md-6">

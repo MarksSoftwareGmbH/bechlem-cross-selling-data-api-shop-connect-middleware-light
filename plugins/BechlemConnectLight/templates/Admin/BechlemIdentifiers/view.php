@@ -106,15 +106,15 @@ $this->Breadcrumbs->add([
                 <dl class="row">
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id'); ?></dt>
                     <dd class="col-sm-9"><?= h($bechlemIdentifier->id); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Item'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id item'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemIdentifier->id_item)? '-': h($bechlemIdentifier->id_item); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Position'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id position'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemIdentifier->id_position)? '-': h($bechlemIdentifier->id_position); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Type'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id type'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemIdentifier->id_type)? '-': h($bechlemIdentifier->id_type); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Identifier'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id identifier'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemIdentifier->id_identifier)? '-': h($bechlemIdentifier->id_identifier); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Sync Id'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Sync id'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemIdentifier->sync_id)? '-': h($bechlemIdentifier->sync_id); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Created'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemIdentifier->created)? '-': h($bechlemIdentifier->created->format('d.m.Y H:i:s')); ?></dd>

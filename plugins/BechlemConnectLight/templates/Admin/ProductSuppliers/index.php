@@ -67,7 +67,7 @@ $this->Breadcrumbs->add([
                     'label'         => false,
                     'placeholder'   => __d('bechlem_connect_light', 'Search') . '...',
                     'prepend'       => $this->Html->link(
-                        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add Product Supplier'),
+                        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add product supplier'),
                         [
                             'plugin'        => 'BechlemConnectLight',
                             'controller'    => 'ProductSuppliers',
@@ -184,7 +184,7 @@ $this->Breadcrumbs->add([
                 <table class="table table-hover text-nowrap">
                     <thead>
                     <tr>
-                        <th><?= $this->Paginator->sort('foreign_key', __d('bechlem_connect_light', 'Foreign Key')); ?></th>
+                        <th><?= $this->Paginator->sort('foreign_key', __d('bechlem_connect_light', 'Foreign key')); ?></th>
                         <th><?= $this->Paginator->sort('number', __d('bechlem_connect_light', 'Number')); ?></th>
                         <th><?= $this->Paginator->sort('name', __d('bechlem_connect_light', 'Name')); ?></th>
                         <th><?= $this->Paginator->sort('status', __d('bechlem_connect_light', 'Status')); ?></th>

@@ -67,7 +67,7 @@ $this->Breadcrumbs->add([
                     'label'         => false,
                     'placeholder'   => __d('bechlem_connect_light', 'Search') . '...',
                     'prepend'       => $this->Html->link(
-                        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add Type Attribute'),
+                        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add type attribute'),
                         [
                             'plugin'        => 'BechlemConnectLight',
                             'controller'    => 'ProductTypeAttributes',
@@ -184,11 +184,11 @@ $this->Breadcrumbs->add([
                 <table class="table table-hover text-nowrap">
                     <thead>
                     <tr>
-                        <th><?= $this->Paginator->sort('foreign_key', __d('bechlem_connect_light', 'Foreign Key')); ?></th>
+                        <th><?= $this->Paginator->sort('foreign_key', __d('bechlem_connect_light', 'Foreign key')); ?></th>
                         <th><?= $this->Paginator->sort('title', __d('bechlem_connect_light', 'Title')); ?></th>
                         <th><?= $this->Paginator->sort('alias', __d('bechlem_connect_light', 'Alias')); ?></th>
                         <th><?= $this->Paginator->sort('type', __d('bechlem_connect_light', 'Type')); ?></th>
-                        <th><?= $this->Paginator->sort('empty_value', __d('bechlem_connect_light', 'Empty Value')); ?></th>
+                        <th><?= $this->Paginator->sort('empty_value', __d('bechlem_connect_light', 'Empty value')); ?></th>
                         <th><?= $this->Paginator->sort('wysiwyg', __d('bechlem_connect_light', 'WYSIWYG')); ?></th>
                         <th class="actions"><?= __d('bechlem_connect_light', 'Actions'); ?></th>
                     </tr>
@@ -205,7 +205,7 @@ $this->Breadcrumbs->add([
                             <td class="actions">
                                 <?php if (!empty($productTypeAttribute->product_type_attribute_choices)): ?>
                                     <?= $this->Html->link($this->Html->icon('list'), '#', [
-                                        'title'         => __d('bechlem_connect_light', 'Type Attribute Choices'),
+                                        'title'         => __d('bechlem_connect_light', 'Type attribute choices'),
                                         'data-target'   => '#modal' . '-' . h($productTypeAttribute->id),
                                         'data-toggle'   => 'modal',
                                         'escape'        => false,
@@ -225,7 +225,7 @@ $this->Breadcrumbs->add([
                                                         class="modal-title"
                                                         id="modal-<?= h($productTypeAttribute->id); ?>-label"
                                                     >
-                                                        <?= __d('bechlem_connect_light', 'Type Attribute Choices') . ' ' . __d('bechlem_connect_light', 'for') . ' ' . h($productTypeAttribute->title); ?>
+                                                        <?= __d('bechlem_connect_light', 'Type attribute choices') . ' ' . __d('bechlem_connect_light', 'for') . ' ' . h($productTypeAttribute->title); ?>
                                                     </h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                         <span aria-hidden="true">&times;</span>

@@ -107,7 +107,7 @@ $this->Breadcrumbs->add([
                 <dl class="row">
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id'); ?></dt>
                     <dd class="col-sm-9"><?= h($productIntrastatCode->id); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Foreign Key'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Foreign key'); ?></dt>
                     <dd class="col-sm-9"><?= empty($productIntrastatCode->foreign_key)? '-': h($productIntrastatCode->foreign_key); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Code'); ?></dt>
                     <dd class="col-sm-9"><?= empty($productIntrastatCode->code)? '-': h($productIntrastatCode->code); ?></dd>

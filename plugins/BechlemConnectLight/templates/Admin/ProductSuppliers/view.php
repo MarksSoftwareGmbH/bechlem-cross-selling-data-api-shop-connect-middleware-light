@@ -113,7 +113,7 @@ $this->Breadcrumbs->add([
                     <dd class="col-sm-9"><?= empty($productSupplier->number)? '-': h($productSupplier->number); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Name'); ?></dt>
                     <dd class="col-sm-9"><?= empty($productSupplier->name)? '-': h($productSupplier->name); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Name Addition'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Name addition'); ?></dt>
                     <dd class="col-sm-9"><?= empty($productSupplier->name_addition)? '-': h($productSupplier->name_addition); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Street'); ?></dt>
                     <dd class="col-sm-9"><?= empty($productSupplier->street)? '-': h($productSupplier->street); ?></dd>

@@ -67,7 +67,7 @@ $this->Breadcrumbs->add([
                     'label'         => false,
                     'placeholder'   => __d('bechlem_connect_light', 'Search') . '...',
                     'prepend'       => $this->Html->link(
-                        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add Product Delivery Time'),
+                        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add product delivery time'),
                         [
                             'plugin'        => 'BechlemConnectLight',
                             'controller'    => 'ProductDeliveryTimes',
@@ -184,7 +184,7 @@ $this->Breadcrumbs->add([
                 <table class="table table-hover text-nowrap">
                     <thead>
                     <tr>
-                        <th><?= $this->Paginator->sort('foreign_key', __d('bechlem_connect_light', 'Foreign Key')); ?></th>
+                        <th><?= $this->Paginator->sort('foreign_key', __d('bechlem_connect_light', 'Foreign key')); ?></th>
                         <th><?= $this->Paginator->sort('title', __d('bechlem_connect_light', 'Title')); ?></th>
                         <th><?= $this->Paginator->sort('alias', __d('bechlem_connect_light', 'Alias')); ?></th>
                         <th class="actions"><?= __d('bechlem_connect_light', 'Actions'); ?></th>

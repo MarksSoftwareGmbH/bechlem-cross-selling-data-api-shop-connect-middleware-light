@@ -103,7 +103,7 @@ $this->Breadcrumbs->add([
                             [
                                 'class'         => 'btn btn-' . h($backendButtonColor),
                                 'escapeTitle'   => false,
-                                'title'         => __d('bechlem_connect_light', 'Upload & import CSV'),
+                                'title'         => __d('bechlem_connect_light', 'Upload & import csv'),
                             ]
                         )
                         . ' '

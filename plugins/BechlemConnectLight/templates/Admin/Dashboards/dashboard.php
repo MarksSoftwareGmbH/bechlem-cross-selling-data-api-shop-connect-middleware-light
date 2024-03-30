@@ -76,8 +76,8 @@ $this->Breadcrumbs->add([
             <div class="card-header border-0">
                 <div class="d-flex justify-content-between">
                     <h3 class="card-title">
-                        <?= __d('bechlem_connect_light', 'Bechlem Product Manufacturers'); ?>
-                        <small>(<?= __d('bechlem_connect_light', 'based on matched Reseller Items'); ?>)</small>
+                        <?= __d('bechlem_connect_light', 'Bechlem product manufacturers'); ?>
+                        <small>(<?= __d('bechlem_connect_light', 'based on matched reseller items'); ?>)</small>
                     </h3>
                     <?= $this->Html->link(
                         __d('bechlem_connect_light', 'View products')
@@ -113,8 +113,8 @@ $this->Breadcrumbs->add([
             <div class="card-header border-0">
                 <div class="d-flex justify-content-between">
                     <h3 class="card-title">
-                        <?= __d('bechlem_connect_light', 'Bechlem Product Types'); ?>
-                        <small>(<?= __d('bechlem_connect_light', 'based on matched Reseller Items'); ?>)</small>
+                        <?= __d('bechlem_connect_light', 'Bechlem product types'); ?>
+                        <small>(<?= __d('bechlem_connect_light', 'based on matched reseller items'); ?>)</small>
                     </h3>
                     <?= $this->Html->link(
                         __d('bechlem_connect_light', 'View products')
@@ -292,7 +292,7 @@ $this->Breadcrumbs->add([
         <div class="small-box bg-<?= h($backendBoxColor); ?>">
             <div class="inner">
                 <h3><?= empty($userProfilesCount)? 0: h($userProfilesCount); ?></h3>
-                <p><?= __d('bechlem_connect_light', 'Active'); ?> <?= __d('bechlem_connect_light', 'User Profiles'); ?></p>
+                <p><?= __d('bechlem_connect_light', 'Active'); ?> <?= __d('bechlem_connect_light', 'User profiles'); ?></p>
             </div>
             <div class="icon"><?= $this->Html->icon('users'); ?></div>
             <?= $this->Html->link(

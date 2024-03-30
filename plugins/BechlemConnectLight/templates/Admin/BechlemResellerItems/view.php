@@ -106,15 +106,15 @@ $this->Breadcrumbs->add([
                 <dl class="row">
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id'); ?></dt>
                     <dd class="col-sm-9"><?= h($bechlemResellerItem->id); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Art. Nr.'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id art nr'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemResellerItem->id_art_nr)? '-': h($bechlemResellerItem->id_art_nr); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Reseller'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id reseller'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemResellerItem->id_reseller)? '-': h($bechlemResellerItem->id_reseller); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Item'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id item'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemResellerItem->id_item)? '-': h($bechlemResellerItem->id_item); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'EAN'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemResellerItem->ean)? '-': h($bechlemResellerItem->ean); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'OEM Nr.'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'OEM nr'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemResellerItem->oem_nr)? '-': h($bechlemResellerItem->oem_nr); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Description'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemResellerItem->description)? '-': h($bechlemResellerItem->description); ?></dd>

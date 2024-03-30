@@ -47,7 +47,7 @@ $this->Breadcrumbs->add([
             'action'        => 'index',
         ]
     ],
-    ['title' => __d('bechlem_connect_light', 'Add Type Attribute')]
+    ['title' => __d('bechlem_connect_light', 'Add type attribute')]
 ]); ?>
 
 <?= $this->Form->create($productTypeAttribute, ['class' => 'form-general']); ?>
@@ -56,7 +56,7 @@ $this->Breadcrumbs->add([
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">
-                    <?= $this->Html->icon('plus'); ?> <?= __d('bechlem_connect_light', 'Add Product Type'); ?>
+                    <?= $this->Html->icon('plus'); ?> <?= __d('bechlem_connect_light', 'Add product type'); ?>
                 </h3>
             </div>
             <div class="card-body">

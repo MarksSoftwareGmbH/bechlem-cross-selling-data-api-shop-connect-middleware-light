@@ -255,7 +255,7 @@
                                                         <div class="contentEditableContainer contentTextEditable">
                                                             <div class="contentEditable footer" align="center">
                                                                 <p class="footer" style="text-align: center;">
-                                                                    <?= __d('bechlem_connect_light', 'Our terms and tonditions, which can be reviewed and printed in an updated version under marks-software.de, apply in any case.'); ?>
+                                                                    <?= __d('bechlem_connect_light', 'Our terms and conditions, which can be reviewed and printed in an updated version under marks-software.de, apply in any case.'); ?>
                                                                 </p>
                                                             </div>
                                                         </div>

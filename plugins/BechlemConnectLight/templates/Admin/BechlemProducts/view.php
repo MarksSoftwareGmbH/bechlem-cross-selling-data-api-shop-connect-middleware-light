@@ -106,25 +106,25 @@ $this->Breadcrumbs->add([
                 <dl class="row">
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id'); ?></dt>
                     <dd class="col-sm-9"><?= h($bechlemProduct->id); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Bechlem Id'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Bechlem id'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProduct->bechlem_id)? '-': h($bechlemProduct->bechlem_id); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'EAN'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProduct->ean)? '-': h($bechlemProduct->ean); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Manufacturer SKU'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Manufacturer sku'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProduct->manufacturer_sku)? '-': h($bechlemProduct->manufacturer_sku); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Your SKU'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Your sku'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProduct->your_sku)? '-': h($bechlemProduct->your_sku); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Manufacturer Id'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Manufacturer id'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProduct->manufacturer_id)? '-': h($bechlemProduct->manufacturer_id); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Manufacturer Name'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Manufacturer name'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProduct->manufacturer_name)? '-': h($bechlemProduct->manufacturer_name); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Product Name With Manufacturer'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Product name with manufacturer'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProduct->product_name_with_manufacturer)? '-': h($bechlemProduct->product_name_with_manufacturer); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Short Description'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Short description'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProduct->short_description)? '-': h($bechlemProduct->short_description); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Product Type Id'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Product type id'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProduct->product_type_id)? '-': h($bechlemProduct->product_type_id); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Product Type Name'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Product type name'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProduct->product_type_name)? '-': h($bechlemProduct->product_type_name); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Created'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemProduct->created)? '-': h($bechlemProduct->created->format('d.m.Y H:i:s')); ?></dd>
@@ -138,14 +138,14 @@ $this->Breadcrumbs->add([
                 </dl>
                 <?php if (is_array($bechlemProduct->bechlem_product_accessories) && !empty($bechlemProduct->bechlem_product_accessories)): ?>
                     <hr/>
-                    <h4><?= __d('bechlem_connect_light', 'Product Accessories'); ?></h4>
+                    <h4><?= __d('bechlem_connect_light', 'Product accessories'); ?></h4>
                     <table id="referencedProducts" class="table table-hover">
                         <thead>
                         <tr>
                             <th><?= __d('bechlem_connect_light', 'Type'); ?></th>
-                            <th><?= __d('bechlem_connect_light', 'Bechlem Id'); ?></th>
-                            <th><?= __d('bechlem_connect_light', 'Your SKU'); ?></th>
-                            <th><?= __d('bechlem_connect_light', 'Manufacturer SKU'); ?></th>
+                            <th><?= __d('bechlem_connect_light', 'Bechlem id'); ?></th>
+                            <th><?= __d('bechlem_connect_light', 'Your sku'); ?></th>
+                            <th><?= __d('bechlem_connect_light', 'Manufacturer sku'); ?></th>
                             <th><?= __d('bechlem_connect_light', 'EAN'); ?></th>
                             <th><?= __d('bechlem_connect_light', 'Name'); ?></th>
                         </tr>

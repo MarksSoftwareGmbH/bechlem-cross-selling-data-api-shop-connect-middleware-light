@@ -35,7 +35,7 @@ endif;
 ?>
 <div class="input-group-prepend">
     <?= $this->Html->link(
-        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add User'),
+        $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add user'),
         [
             'plugin'        => 'BechlemConnectLight',
             'controller'    => 'Users',

@@ -49,7 +49,7 @@ $this->Breadcrumbs->add([
             'action'        => 'index',
         ]
     ],
-    ['title' => __d('bechlem_connect_light', 'Edit Request')],
+    ['title' => __d('bechlem_connect_light', 'Edit request')],
     ['title' => $bechlemConnectRequest->name]
 ]); ?>
 <?= $this->Form->create($bechlemConnectRequest, ['class' => 'form-general']); ?>
@@ -58,7 +58,7 @@ $this->Breadcrumbs->add([
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">
-                    <?= $this->Html->icon('edit'); ?> <?= __d('bechlem_connect_light', 'Edit Request'); ?>
+                    <?= $this->Html->icon('edit'); ?> <?= __d('bechlem_connect_light', 'Edit request'); ?>
                 </h3>
             </div>
             <div class="card-body">

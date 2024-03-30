@@ -50,7 +50,7 @@ $this->Breadcrumbs->add([
             'action'        => 'index',
         ]
     ],
-    ['title' => __d('bechlem_connect_light', 'Edit Product')],
+    ['title' => __d('bechlem_connect_light', 'Edit product')],
     ['title' => h($product->name)]
 ]); ?>
 
@@ -60,14 +60,14 @@ $this->Breadcrumbs->add([
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">
-                    <?= $this->Html->icon('edit'); ?> <?= __d('bechlem_connect_light', 'Edit Product'); ?>
+                    <?= $this->Html->icon('edit'); ?> <?= __d('bechlem_connect_light', 'Edit product'); ?>
                 </h3>
             </div>
             <div class="card-body">
 
                 <?= $this->Form->control('bechlem_product_key', [
                     'type' => 'text',
-                    'label' => __d('bechlem_connect_light', 'Fetch Bechlem product by bechlem Id, Manufacturer SKU or EAN'),
+                    'label' => __d('bechlem_connect_light', 'Fetch bechlem product by bechlem id, manufacturer sku or ean'),
                 ]); ?>
                 <hr />
 
@@ -248,7 +248,7 @@ $this->Breadcrumbs->add([
                 ]); ?>
                 <?= $this->Form->control('product_delivery_time_id', [
                     'type'      => 'select',
-                    'label'     => __d('bechlem_connect_light', 'Delivery Time'),
+                    'label'     => __d('bechlem_connect_light', 'Delivery time'),
                     'options'   => !empty($productDeliveryTimes)? $productDeliveryTimes: [],
                     'class'     => 'select2',
                     'style'     => 'width: 100%',
@@ -257,7 +257,7 @@ $this->Breadcrumbs->add([
                 ]); ?>
                 <?= $this->Form->control('product_tax_class_id', [
                     'type'      => 'select',
-                    'label'     => __d('bechlem_connect_light', 'Tax Class'),
+                    'label'     => __d('bechlem_connect_light', 'Tax class'),
                     'options'   => !empty($productTaxClasses)? $productTaxClasses: [],
                     'class'     => 'select2',
                     'style'     => 'width: 100%',
@@ -293,7 +293,7 @@ $this->Breadcrumbs->add([
                 </div>
                 <?= $this->Form->control('promote_start', [
                     'type'      => 'text',
-                    'label'     => __d('bechlem_connect_light', 'Promote Start'),
+                    'label'     => __d('bechlem_connect_light', 'Promote start'),
                     'class'     => 'datetimepicker',
                     'format'    => 'd.m.Y H:i',
                     'default'   => date('d.m.Y H:i'),
@@ -301,7 +301,7 @@ $this->Breadcrumbs->add([
                 ]); ?>
                 <?= $this->Form->control('promote_end', [
                     'type'      => 'text',
-                    'label'     => __d('bechlem_connect_light', 'Promote End'),
+                    'label'     => __d('bechlem_connect_light', 'Promote end'),
                     'class'     => 'datetimepicker',
                     'format'    => 'd.m.Y H:i',
                     'value'     => !empty($product->promote_end)? $product->promote_end->format('d.m.Y H:i'): '',
@@ -320,7 +320,7 @@ $this->Breadcrumbs->add([
                 ]); ?>
                 <?= $this->Form->control('promote_new_start', [
                     'type'      => 'text',
-                    'label'     => __d('bechlem_connect_light', 'Promote New Start'),
+                    'label'     => __d('bechlem_connect_light', 'Promote new start'),
                     'class'     => 'datetimepicker',
                     'format'    => 'd.m.Y H:i',
                     'default'   => date('d.m.Y H:i'),
@@ -328,7 +328,7 @@ $this->Breadcrumbs->add([
                 ]); ?>
                 <?= $this->Form->control('promote_new_end', [
                     'type'      => 'text',
-                    'label'     => __d('bechlem_connect_light', 'Promote New End'),
+                    'label'     => __d('bechlem_connect_light', 'Promote new end'),
                     'class'     => 'datetimepicker',
                     'format'    => 'd.m.Y H:i',
                     'value'     => !empty($product->promote_new_end)? $product->promote_new_end->format('d.m.Y H:i'): '',
@@ -337,7 +337,7 @@ $this->Breadcrumbs->add([
                     <div class="custom-control custom-switch custom-switch-off-danger custom-switch-on-success">
                         <?php $promoteNew = $product->promote_new? true: false; ?>
                         <?= $this->Form->checkbox('promote_new', ['id' => 'promoteNew', 'class' => 'custom-control-input', 'checked' => $promoteNew, 'required' => false]); ?>
-                        <label class="custom-control-label" for="promoteNew"><?= __d('bechlem_connect_light', 'Promote New'); ?></label>
+                        <label class="custom-control-label" for="promoteNew"><?= __d('bechlem_connect_light', 'Promote new'); ?></label>
                     </div>
                 </div>
                 <?= $this->Form->control('promote_new_position', [

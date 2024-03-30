@@ -176,9 +176,9 @@ $this->Breadcrumbs->add([
                     <thead>
                     <tr>
                         <th><?= __d('bechlem_connect_light', 'Image'); ?></th>
-                        <th><?= $this->Paginator->sort('bechlem_id', __d('bechlem_connect_light', 'Bechlem Id')); ?></th>
-                        <th><?= $this->Paginator->sort('your_sku', __d('bechlem_connect_light', 'Your SKU')); ?></th>
-                        <th><?= $this->Paginator->sort('manufacturer_sku', __d('bechlem_connect_light', 'Manufacturer SKU')); ?></th>
+                        <th><?= $this->Paginator->sort('bechlem_id', __d('bechlem_connect_light', 'Bechlem id')); ?></th>
+                        <th><?= $this->Paginator->sort('your_sku', __d('bechlem_connect_light', 'Your sku')); ?></th>
+                        <th><?= $this->Paginator->sort('manufacturer_sku', __d('bechlem_connect_light', 'Manufacturer sku')); ?></th>
                         <th><?= $this->Paginator->sort('ean', __d('bechlem_connect_light', 'EAN')); ?></th>
                         <th><?= $this->Paginator->sort('modified', __d('bechlem_connect_light', 'Modified')); ?></th>
                         <th class="actions"><?= __d('bechlem_connect_light', 'Actions'); ?></th>

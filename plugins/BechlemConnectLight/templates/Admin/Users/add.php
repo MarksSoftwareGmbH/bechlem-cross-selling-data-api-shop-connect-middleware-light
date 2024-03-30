@@ -47,7 +47,7 @@ $this->Breadcrumbs->add([
             'action'        => 'index',
         ]
     ],
-    ['title' => __d('bechlem_connect_light', 'Add User')]
+    ['title' => __d('bechlem_connect_light', 'Add user')]
 ]); ?>
 
 <?= $this->Form->create($user, ['class' => 'form-general']); ?>
@@ -56,7 +56,7 @@ $this->Breadcrumbs->add([
         <div class="card">
             <div class="card-header">
                 <h3 class="card-title">
-                    <?= $this->Html->icon('plus'); ?> <?= __d('bechlem_connect_light', 'Add User'); ?>
+                    <?= $this->Html->icon('plus'); ?> <?= __d('bechlem_connect_light', 'Add user'); ?>
                 </h3>
             </div>
             <div class="card-body">
