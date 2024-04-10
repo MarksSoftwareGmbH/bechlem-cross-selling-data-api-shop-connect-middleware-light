@@ -103,7 +103,7 @@ class BechlemIdentifiersController extends AppController
     public function updateAll()
     {
         if ($this->getRequest()->is(['patch', 'post', 'put'])) {
-            if ($this->BechlemIdentifiers->updateIdentifiers()) {
+            if ($this->BechlemIdentifiers->updateIdentifiers($this)) {
                 $this->Flash->set(
                     __d('bechlem_connect_light', 'The Bechlem identifiers have been updated.'),
                     ['element' => 'default', 'params' => ['class' => 'success']]

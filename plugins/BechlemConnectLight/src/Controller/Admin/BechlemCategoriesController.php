@@ -101,7 +101,7 @@ class BechlemCategoriesController extends AppController
     public function updateAll()
     {
         if ($this->getRequest()->is(['patch', 'post', 'put'])) {
-            if ($this->BechlemCategories->updateCategories()) {
+            if ($this->BechlemCategories->updateCategories($this)) {
                 $this->Flash->set(
                     __d('bechlem_connect_light', 'The Bechlem categories have been updated.'),
                     ['element' => 'default', 'params' => ['class' => 'success']]

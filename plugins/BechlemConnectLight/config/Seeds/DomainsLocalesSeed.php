@@ -80,6 +80,18 @@ class DomainsLocalesSeed extends AbstractSeed
                 'locale_id' => 6,
                 'position' => 6,
             ],
+            [
+                'id' => 7,
+                'domain_id' => 1,
+                'locale_id' => 7,
+                'position' => 7,
+            ],
+            [
+                'id' => 8,
+                'domain_id' => 1,
+                'locale_id' => 8,
+                'position' => 8,
+            ],
         ];
 
         $table = $this->table('domains_locales');

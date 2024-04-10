@@ -33,6 +33,11 @@ if (Configure::check('BechlemConnectLight.settings.backendButtonColor')):
     $backendButtonColor = Configure::read('BechlemConnectLight.settings.backendButtonColor');
 endif;
 
+$backendBoxColor = 'secondary';
+if (Configure::check('BechlemConnectLight.settings.backendBoxColor')):
+    $backendBoxColor = Configure::read('BechlemConnectLight.settings.backendBoxColor');
+endif;
+
 // Title
 $this->assign('title', $this->BechlemConnectLight->readCamel($this->getRequest()->getParam('controller'))
     . ' :: '

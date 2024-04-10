@@ -187,10 +187,12 @@ class BechlemIdentifiersTable extends Table
 
     /**
      * Update identifiers method.
-     *
+     * 
+     * @param object|null $controller
+     * 
      * @return bool
      */
-    public function updateIdentifiers()
+    public function updateIdentifiers(object $controller = null)
     {
         ini_set('memory_limit', '2048M');
         ini_set('max_execution_time', '900');
@@ -222,7 +224,7 @@ class BechlemIdentifiersTable extends Table
         try {
             if (!empty($bechlemIdentifiersRequest->id)) {
                 $bechlemIdentifiersResponse = $BechlemConnectRequests->runRequest(
-                    null,
+                    $controller,
                     $bechlemIdentifiersRequest
                 );
             }

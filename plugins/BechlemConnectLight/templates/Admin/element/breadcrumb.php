@@ -24,4 +24,4 @@
  * SOFTWARE.
  */
 
-echo $this->Breadcrumbs->render(['class' => 'breadcrumb float-sm-right'], ['wrapper' => '<ol{{attrs}}>{{content}}</ol>']);
+echo $this->Breadcrumbs->render(['class' => 'breadcrumb float-sm-left'], ['wrapper' => '<ol{{attrs}}>{{content}}</ol>']);

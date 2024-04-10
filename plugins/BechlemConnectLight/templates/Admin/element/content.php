@@ -25,18 +25,13 @@
  */
 ?>
 <div class="content-wrapper">
-
     <section class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
-                <div class="col-sm-6">
+                <div class="col-sm-12">
                     <h1 class="m-0 text-dark">
-                        <?= $this->BechlemConnectLight->readCamel($this->getRequest()->getParam('controller')); ?>
+                        <?= $this->element('breadcrumb'); ?>
                     </h1>
-                    <small><?= ucfirst($this->getRequest()->getParam('action')); ?></small>
-                </div>
-                <div class="col-sm-6">
-                    <?= $this->element('breadcrumb'); ?>
                 </div>
             </div>
         </div>

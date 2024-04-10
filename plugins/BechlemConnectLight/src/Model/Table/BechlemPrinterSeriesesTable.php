@@ -182,10 +182,12 @@ class BechlemPrinterSeriesesTable extends Table
 
     /**
      * Update printer serieses method.
-     *
+     * 
+     * @param object|null $controller
+     * 
      * @return bool
      */
-    public function updatePrinterSerieses()
+    public function updatePrinterSerieses(object $controller = null)
     {
         ini_set('memory_limit', '2048M');
         ini_set('max_execution_time', '900');
@@ -217,7 +219,7 @@ class BechlemPrinterSeriesesTable extends Table
         try {
             if (!empty($bechlemPrinterSeriesesRequest->id)) {
                 $bechlemPrinterSeriesesResponse = $BechlemConnectRequests->runRequest(
-                    null,
+                    $controller,
                     $bechlemPrinterSeriesesRequest
                 );
             }

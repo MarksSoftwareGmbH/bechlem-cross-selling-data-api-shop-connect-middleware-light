@@ -27,13 +27,11 @@
 <div class="text-center">
     <nav aria-label="Page navigation text-center">
         <ul class="pagination justify-content-center">
-
             <?= $this->Paginator->first(__d('bechlem_connect_light', 'First')); ?>
             <?= $this->Paginator->prev('< ' . __d('bechlem_connect_light', 'Previous')); ?>
             <?= $this->Paginator->numbers(); ?>
             <?= $this->Paginator->next(__d('bechlem_connect_light', 'Next') . ' >'); ?>
             <?= $this->Paginator->last(__d('bechlem_connect_light', 'Last')); ?>
-
         </ul>
     </nav>
     <p><?= $this->Paginator->counter(); ?></p>

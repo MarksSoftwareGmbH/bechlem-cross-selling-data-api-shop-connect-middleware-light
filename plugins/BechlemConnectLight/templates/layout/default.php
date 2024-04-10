@@ -24,7 +24,6 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-use Cake\Core\Configure;
 
 // Get session object
 $session = $this->getRequest()->getSession();
@@ -64,25 +63,26 @@ if (!empty($locales_for_layout)):
 endif;
 ?>
 <html lang="<?= $language; ?>">
-<head>
-    <title><?= $siteTitle; ?> | <?= h($this->fetch('title')); ?></title><?= $this->Html->charset(); ?>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <?= $this->Html->meta('favicon.ico', isset($settings['siteFaviconIcoUrl'])? $settings['siteFaviconIcoUrl']: '', ['type' => 'icon']); ?>
-    <?= $this->fetch('meta'); ?>
-    <link rel="canonical" href="<?= $this->Url->build(); ?>" />
-    <?= $this->Html->css([
-        'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'fontawesome-free' . DS . 'css' . DS . 'all.min',
-        'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'ionicons' . DS . '2.0.1' . DS . 'css' . DS . 'ionicons.min',
-        'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'tempusdominus-bootstrap-4' . DS . 'css' . DS . 'tempusdominus-bootstrap-4.min',
-        'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'icheck-bootstrap' . DS . 'icheck-bootstrap.min',
-        'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'jqvmap' . DS . 'jqvmap.min',
-        'BechlemConnectLight' . '.' . 'admin' . DS . 'adminlte.min',
-        'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'overlayScrollbars' . DS . 'css' . DS . 'OverlayScrollbars.min',
-        'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'daterangepicker' . DS . 'daterangepicker',
-        'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'summernote' . DS . 'summernote-bs4',
-        'BechlemConnectLight' . '.' . 'admin' . DS . 'fonts',
-    ]); ?><?= $this->fetch('css'); ?><?= $this->fetch('script'); ?></head>
+    <head>
+        <title><?= $siteTitle; ?> | <?= h($this->fetch('title')); ?></title>
+        <?= $this->Html->charset(); ?>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <?= $this->Html->meta('favicon.ico', isset($settings['siteFaviconIcoUrl'])? $settings['siteFaviconIcoUrl']: '', ['type' => 'icon']); ?>
+        <?= $this->fetch('meta'); ?>
+        <link rel="canonical" href="<?= $this->Url->build(); ?>" />
+        <?= $this->Html->css([
+            'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'fontawesome-free' . DS . 'css' . DS . 'all.min',
+            'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'ionicons' . DS . '2.0.1' . DS . 'css' . DS . 'ionicons.min',
+            'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'tempusdominus-bootstrap-4' . DS . 'css' . DS . 'tempusdominus-bootstrap-4.min',
+            'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'icheck-bootstrap' . DS . 'icheck-bootstrap.min',
+            'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'jqvmap' . DS . 'jqvmap.min',
+            'BechlemConnectLight' . '.' . 'admin' . DS . 'adminlte.min',
+            'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'overlayScrollbars' . DS . 'css' . DS . 'OverlayScrollbars.min',
+            'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'daterangepicker' . DS . 'daterangepicker',
+            'BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'summernote' . DS . 'summernote-bs4',
+            'BechlemConnectLight' . '.' . 'admin' . DS . 'fonts',
+        ]); ?><?= $this->fetch('css'); ?><?= $this->fetch('script'); ?></head>
     <?php
         if ($activeAction === 'register'):
             echo $this->element('Users/register');

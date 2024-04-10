@@ -24,6 +24,13 @@
  * SOFTWARE.
  */
 use Cake\Utility\Text;
+use Cake\Core\Configure;
+
+$backendBoxColor = 'secondary';
+if (Configure::check('BechlemConnectLight.settings.backendBoxColor')):
+    $backendBoxColor = Configure::read('BechlemConnectLight.settings.backendBoxColor');
+endif;
+
 
 // Title
 $this->assign('title', $this->BechlemConnectLight->readCamel($this->getRequest()->getParam('controller'))
@@ -57,7 +64,7 @@ $this->Breadcrumbs->add([
     'class' => 'form-general']); ?>
 <div class="row">
     <section class="col-lg-8 connectedSortable">
-        <div class="card">
+        <div class="card card-<?= h($backendBoxColor); ?>">
             <div class="card-header">
                 <h3 class="card-title">
                     <?= $this->Html->icon('plus'); ?> <?= __d('bechlem_connect_light', 'Add user profile'); ?>
@@ -185,7 +192,7 @@ $this->Breadcrumbs->add([
         </div>
     </section>
     <section class="col-lg-4 connectedSortable">
-        <div class="card">
+        <div class="card card-<?= h($backendBoxColor); ?>">
             <div class="card-header">
                 <h3 class="card-title">
                     <?= $this->Html->icon('cog'); ?> <?= __d('bechlem_connect_light', 'Actions'); ?>

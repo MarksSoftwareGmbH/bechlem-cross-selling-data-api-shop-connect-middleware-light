@@ -104,11 +104,8 @@ $this->Html->meta([
                 <p class="login-box-msg">
                     <?= __d('bechlem_connect_light', 'Welcome to {bechlemConnectLight}', ['bechlemConnectLight' => 'Bechlem Connect Light']); ?> - v<?= Configure::version(); ?>
                 </p>
-
                 <?php if ($session->check('Auth.User.blocked')): ?>
-
                     <?php if ($session->read('Auth.User.blocked') == 1): ?>
-
                         <div class="alert alert-danger" role="alert">
                             <h4 class="alert-heading"><?= __d('bechlem_connect_light', 'Oops, unfortunately you are blocked!'); ?></h4>
                             <p><?= __d('bechlem_connect_light', 'This can have various causes and does not mean anything in the first step.'); ?></p>
@@ -117,11 +114,8 @@ $this->Html->meta([
                                 <?= __d('bechlem_connect_light', 'Please write us an email with the request for verification.'); ?>
                             </p>
                         </div>
-
                     <?php endif; ?>
-
                 <?php else: ?>
-
                     <?php $this->Form->setTemplates([
                         'inputContainer' => '{{content}}{{help}}',
                         'inputGroupContainer' => '<div class="input-group mb-3">{{prepend}}{{content}}{{append}}</div>',
@@ -171,11 +165,9 @@ $this->Html->meta([
                     </div>
                     <?= $this->Form->end(); ?>
                 <?php endif; ?>
-
             </div>
         </div>
     </div>
-
     <?= $this->Html->script('BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'jquery' . DS . 'jquery.min', ['block' => 'scripts']); ?>
     <?= $this->Html->script('BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'jquery-ui' . DS . 'jquery-ui.min', ['block' => 'scripts']); ?>
     <?= $this->Html->script('BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'bootstrap' . DS . 'js' . DS . 'bootstrap.bundle.min', ['block' => 'scripts']); ?>
@@ -190,10 +182,8 @@ $this->Html->meta([
     <?= $this->Html->script('BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'summernote' . DS . 'summernote-bs4.min', ['block' => 'scripts']); ?>
     <?= $this->Html->script('BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'overlayScrollbars' . DS . 'js' . DS . 'jquery.overlayScrollbars.min', ['block' => 'scripts']); ?>
     <?= $this->Html->script('BechlemConnectLight' . '.' . 'admin' . DS . 'adminlte.min', ['block' => 'scripts']); ?>
-
     <?= $this->fetch('scripts'); ?>
     <?= $this->fetch('scriptBottom'); ?>
-
     <?= $this->Html->scriptBlock('$.widget.bridge(\'uibutton\', $.ui.button);'); ?>
     <?= $this->Html->scriptBlock(
         '$(function() {

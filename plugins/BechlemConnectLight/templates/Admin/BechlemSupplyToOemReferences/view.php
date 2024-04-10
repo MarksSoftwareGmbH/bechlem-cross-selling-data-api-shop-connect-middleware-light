@@ -114,7 +114,7 @@ $this->Breadcrumbs->add([
                     <dd class="col-sm-9"><?= empty($bechlemSupplyToOemReference->id_brand)? '-': h($bechlemSupplyToOemReference->id_brand); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Brand'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemSupplyToOemReference->brand)? '-': h($bechlemSupplyToOemReference->brand); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Art. nr'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Art nr'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemSupplyToOemReference->art_nr)? '-': h($bechlemSupplyToOemReference->art_nr); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Part nr'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemSupplyToOemReference->part_nr)? '-': h($bechlemSupplyToOemReference->part_nr); ?></dd>

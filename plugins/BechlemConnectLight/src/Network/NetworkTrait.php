@@ -43,7 +43,7 @@ trait NetworkTrait
      * @param string|null $message
      * @param array $data
      */
-    public function requestLog($controller = null, $type = null, $message = null, $data = [])
+    public function requestLog(object $controller = null, string $type = null, string $message = null, array $data = [])
     {
         try {
             $Logs = TableRegistry::getTableLocator()->get('BechlemConnectLight.Logs');

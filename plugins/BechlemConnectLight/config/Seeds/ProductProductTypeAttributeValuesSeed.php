@@ -25,7 +25,6 @@ declare(strict_types=1);
  * SOFTWARE.
  */
 use Cake\I18n\DateTime;
-use Cake\Utility\Text;
 use Migrations\AbstractSeed;
 
 /**

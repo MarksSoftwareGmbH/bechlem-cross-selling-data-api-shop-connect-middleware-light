@@ -106,7 +106,7 @@ class BechlemSupplyToOemReferencesController extends AppController
     public function updateAll()
     {
         if ($this->getRequest()->is(['patch', 'post', 'put'])) {
-            if ($this->BechlemSupplyToOemReferences->updateSupplyToOemReferences()) {
+            if ($this->BechlemSupplyToOemReferences->updateSupplyToOemReferences($this)) {
                 $this->Flash->set(
                     __d('bechlem_connect_light', 'The Bechlem supply to oem references have been updated.'),
                     ['element' => 'default', 'params' => ['class' => 'success']]

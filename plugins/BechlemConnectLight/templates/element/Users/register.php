@@ -104,7 +104,6 @@ $this->Html->meta([
                 <p class="login-box-msg">
                     <?= __d('bechlem_connect_light', 'Welcome to {bechlemConnectLight}', ['bechlemConnectLight' => 'Bechlem Connect Light']); ?> - v<?= Configure::version(); ?>
                 </p>
-
                 <?php $this->Form->setTemplates([
                     'inputContainer' => '{{content}}{{help}}',
                     'inputGroupContainer' => '<div class="input-group mb-3">{{prepend}}{{content}}{{append}}</div>',
@@ -243,11 +242,9 @@ $this->Html->meta([
                     </div>
                 </div>
                 <?= $this->Form->end(); ?>
-
             </div>
         </div>
     </div>
-
     <?= $this->Html->script('BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'jquery' . DS . 'jquery.min', ['block' => 'scripts']); ?>
     <?= $this->Html->script('BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'jquery-ui' . DS . 'jquery-ui.min', ['block' => 'scripts']); ?>
     <?= $this->Html->script('BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'bootstrap' . DS . 'js' . DS . 'bootstrap.bundle.min', ['block' => 'scripts']); ?>
@@ -262,10 +259,8 @@ $this->Html->meta([
     <?= $this->Html->script('BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'summernote' . DS . 'summernote-bs4.min', ['block' => 'scripts']); ?>
     <?= $this->Html->script('BechlemConnectLight' . '.' . 'admin' . DS . 'vendor' . DS . 'overlayScrollbars' . DS . 'js' . DS . 'jquery.overlayScrollbars.min', ['block' => 'scripts']); ?>
     <?= $this->Html->script('BechlemConnectLight' . '.' . 'admin' . DS . 'adminlte.min', ['block' => 'scripts']); ?>
-
     <?= $this->fetch('scripts'); ?>
     <?= $this->fetch('scriptBottom'); ?>
-    
     <?= $this->Html->scriptBlock('$.widget.bridge(\'uibutton\', $.ui.button);'); ?>
     <?= $this->Html->scriptBlock(
         '$(function() {

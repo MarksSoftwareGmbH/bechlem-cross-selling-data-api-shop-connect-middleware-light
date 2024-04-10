@@ -170,10 +170,12 @@ class BechlemPrinterToSuppliesTable extends Table
 
     /**
      * Update printer to supplies method.
-     *
+     * 
+     * @param object|null $controller
+     * 
      * @return bool
      */
-    public function updatePrinterToSupplies()
+    public function updatePrinterToSupplies(object $controller = null)
     {
         ini_set('memory_limit', '2048M');
         ini_set('max_execution_time', '900');
@@ -205,7 +207,7 @@ class BechlemPrinterToSuppliesTable extends Table
         try {
             if (!empty($bechlemPrinterToSuppliesRequest->id)) {
                 $bechlemPrinterToSuppliesResponse = $BechlemConnectRequests->runRequest(
-                    null,
+                    $controller,
                     $bechlemPrinterToSuppliesRequest
                 );
             }

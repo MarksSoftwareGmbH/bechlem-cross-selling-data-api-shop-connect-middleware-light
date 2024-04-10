@@ -23,6 +23,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+use Cake\Core\Configure;
+
+$backendBoxColor = 'secondary';
+if (Configure::check('BechlemConnectLight.settings.backendBoxColor')):
+    $backendBoxColor = Configure::read('BechlemConnectLight.settings.backendBoxColor');
+endif;
 
 // Title
 $this->assign('title', $this->BechlemConnectLight->readCamel($this->getRequest()->getParam('controller'))
@@ -53,7 +59,7 @@ $this->Breadcrumbs->add([
 <?= $this->Form->create($domain, ['class' => 'form-general']); ?>
 <div class="row">
     <section class="col-lg-8 connectedSortable">
-        <div class="card">
+        <div class="card card-<?= h($backendBoxColor); ?>">
             <div class="card-header">
                 <h3 class="card-title">
                     <?= $this->Html->icon('plus'); ?> <?= __d('bechlem_connect_light', 'Add domain'); ?>
@@ -76,7 +82,7 @@ $this->Breadcrumbs->add([
         </div>
     </section>
     <section class="col-lg-4 connectedSortable">
-        <div class="card">
+        <div class="card card-<?= h($backendBoxColor); ?>">
             <div class="card-header">
                 <h3 class="card-title">
                     <?= $this->Html->icon('cog'); ?> <?= __d('bechlem_connect_light', 'Actions'); ?>

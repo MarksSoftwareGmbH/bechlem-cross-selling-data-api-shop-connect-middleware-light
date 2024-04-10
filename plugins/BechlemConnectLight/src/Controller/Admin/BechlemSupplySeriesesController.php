@@ -102,7 +102,7 @@ class BechlemSupplySeriesesController extends AppController
     public function updateAll()
     {
         if ($this->getRequest()->is(['patch', 'post', 'put'])) {
-            if ($this->BechlemSupplySerieses->updateSupplySerieses()) {
+            if ($this->BechlemSupplySerieses->updateSupplySerieses($this)) {
                 $this->Flash->set(
                     __d('bechlem_connect_light', 'The Bechlem supply series have been updated.'),
                     ['element' => 'default', 'params' => ['class' => 'success']]

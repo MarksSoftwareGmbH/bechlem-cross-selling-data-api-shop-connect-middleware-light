@@ -219,10 +219,12 @@ class BechlemProductsTable extends Table
 
     /**
      * Update products method.
-     *
+     * 
+     * @param object|null $controller
+     * 
      * @return bool
      */
-    public function updateProducts()
+    public function updateProducts(object $controller = null)
     {
         ini_set('memory_limit', '2048M');
         ini_set('max_execution_time', '900');

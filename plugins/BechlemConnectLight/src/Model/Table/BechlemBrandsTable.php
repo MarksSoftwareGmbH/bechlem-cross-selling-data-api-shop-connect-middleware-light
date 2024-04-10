@@ -190,10 +190,12 @@ class BechlemBrandsTable extends Table
 
     /**
      * Update brands method.
-     *
+     * 
+     * @param object|null $controller
+     * 
      * @return bool
      */
-    public function updateBrands()
+    public function updateBrands(object $controller = null)
     {
         ini_set('memory_limit', '2048M');
         ini_set('max_execution_time', '900');
@@ -225,7 +227,7 @@ class BechlemBrandsTable extends Table
         try {
             if (!empty($bechlemBrandsRequest->id)) {
                 $bechlemBrandsResponse = $BechlemConnectRequests->runRequest(
-                    null,
+                    $controller,
                     $bechlemBrandsRequest
                 );
             }

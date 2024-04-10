@@ -217,10 +217,12 @@ class BechlemResellerItemsTable extends Table
 
     /**
      * Update reseller items method.
-     *
+     * 
+     * @param object|null $controller
+     * 
      * @return bool
      */
-    public function updateResellerItems()
+    public function updateResellerItems(object $controller = null)
     {
         ini_set('memory_limit', '2048M');
         ini_set('max_execution_time', '900');
@@ -257,7 +259,7 @@ class BechlemResellerItemsTable extends Table
         try {
             if (!empty($bechlemResellerItemsRequest->id)) {
                 $bechlemResellerItemsResponse = $BechlemConnectRequests->runRequest(
-                    null,
+                    $controller,
                     $bechlemResellerItemsRequest
                 );
             }

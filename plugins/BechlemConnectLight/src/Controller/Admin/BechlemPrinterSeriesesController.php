@@ -102,7 +102,7 @@ class BechlemPrinterSeriesesController extends AppController
     public function updateAll()
     {
         if ($this->getRequest()->is(['patch', 'post', 'put'])) {
-            if ($this->BechlemPrinterSerieses->updatePrinterSerieses()) {
+            if ($this->BechlemPrinterSerieses->updatePrinterSerieses($this)) {
                 $this->Flash->set(
                     __d('bechlem_connect_light', 'The Bechlem printer series have been updated.'),
                     ['element' => 'default', 'params' => ['class' => 'success']]

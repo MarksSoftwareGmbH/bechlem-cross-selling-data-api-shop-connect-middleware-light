@@ -129,31 +129,26 @@ class ProductsController extends AppController
                 $select = explode(',', $this->getRequest()->getQuery('fields'));
                 $event->getSubject()->query->select($select);
             }
-            if (
-                ($this->getRequest()->getQuery('contain') !== null) &&
-                ($this->getRequest()->getQuery('contain') == 1)
-            ) {
-                $event->getSubject()->query->contain([
-                    'ProductBrands',
-                    'ProductCategories',
-                    'ProductConditions',
-                    'ProductDeliveryTimes',
-                    'ProductManufacturers',
-                    'ProductTaxClasses',
-                    'ProductTypes.ProductTypeAttributes' => function ($q) {
-                        return $q
-                            ->orderBy(['ProductTypeAttributes.alias' => 'ASC'])
-                            ->contain([
-                                'ProductTypeAttributeChoices' => function ($q) {
-                                    return $q->orderBy(['ProductTypeAttributeChoices.value' => 'ASC']);
-                                }
-                            ]);
-                    },
-                    'ProductProductTypeAttributeValues.ProductTypeAttributes' => function ($q) {
-                        return $q->orderBy(['ProductTypeAttributes.alias' => 'ASC']);
-                    },
-                ]);
-            }
+            $event->getSubject()->query->contain([
+                'ProductBrands',
+                'ProductCategories',
+                'ProductConditions',
+                'ProductDeliveryTimes',
+                'ProductManufacturers',
+                'ProductTaxClasses',
+                'ProductTypes.ProductTypeAttributes' => function ($q) {
+                    return $q
+                        ->orderBy(['ProductTypeAttributes.alias' => 'ASC'])
+                        ->contain([
+                            'ProductTypeAttributeChoices' => function ($q) {
+                                return $q->orderBy(['ProductTypeAttributeChoices.value' => 'ASC']);
+                            }
+                        ]);
+                },
+                'ProductProductTypeAttributeValues.ProductTypeAttributes' => function ($q) {
+                    return $q->orderBy(['ProductTypeAttributes.alias' => 'ASC']);
+                },
+            ]);
         });
 
         $this->Crud->on('afterFind', function(Event $event) {

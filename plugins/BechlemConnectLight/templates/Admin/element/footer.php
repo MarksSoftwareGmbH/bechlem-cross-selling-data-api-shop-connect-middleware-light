@@ -24,6 +24,14 @@
  * SOFTWARE.
  */
 use Cake\Core\Configure;
+
+// Get session object
+$session = $this->getRequest()->getSession();
+
+$backendLinkTextColor = 'navy';
+if (Configure::check('BechlemConnectLight.settings.backendLinkTextColor')):
+    $backendLinkTextColor = Configure::read('BechlemConnectLight.settings.backendLinkTextColor');
+endif;
 ?>
 <footer class="main-footer">
     <strong><?= __d(
@@ -34,12 +42,25 @@ use Cake\Core\Configure;
             'link' => $this->Html->link(
                 'Marks Software GmbH',
                 'https://www.marks-software.de/',
-                ['target' => '_blank', 'escapeTitle' => false]
+                [
+                    'class'         => 'text-' . h($backendLinkTextColor),
+                    'target'        => '_blank',
+                    'escapeTitle'   => false,
+                ]
             ),
         ]); ?></strong>
     <?= __d('bechlem_connect_light', 'All rights reserved.'); ?>
     <div class="float-right d-none d-sm-inline-block">
-        <b><?= __d('bechlem_connect_light', 'Powered by {bechlemConnectLight}', ['bechlemConnectLight' => 'BECHLEM CONNECT LIGHT']); ?></b>
-        v<?= Configure::version(); ?>
+        <strong><?= __d('bechlem_connect_light',
+            'Powered by {bechlemConnectLight}',
+            ['bechlemConnectLight' => $this->Html->link(
+                'BECHLEM CONNECT LIGHT',
+                'https://github.com/MarksSoftwareGmbH/BECHLEM-CONNECT-LIGHT',
+                [
+                    'class'         => 'text-' . h($backendLinkTextColor),
+                    'target'        => '_blank',
+                    'escapeTitle'   => false,
+                ]
+            )]); ?></strong> v<?= Configure::version(); ?>
     </div>
 </footer>

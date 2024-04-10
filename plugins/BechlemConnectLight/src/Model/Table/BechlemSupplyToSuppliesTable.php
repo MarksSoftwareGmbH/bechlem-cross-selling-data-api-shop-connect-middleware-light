@@ -170,10 +170,12 @@ class BechlemSupplyToSuppliesTable extends Table
 
     /**
      * Update supply to supplies method.
-     *
+     * 
+     * @param object|null $controller
+     * 
      * @return bool
      */
-    public function updateSupplyToSupplies()
+    public function updateSupplyToSupplies(object $controller = null)
     {
         ini_set('memory_limit', '2048M');
         ini_set('max_execution_time', '900');
@@ -205,7 +207,7 @@ class BechlemSupplyToSuppliesTable extends Table
         try {
             if (!empty($bechlemSupplyToSuppliesRequest->id)) {
                 $bechlemSupplyToSuppliesResponse = $BechlemConnectRequests->runRequest(
-                    null,
+                    $controller,
                     $bechlemSupplyToSuppliesRequest
                 );
             }

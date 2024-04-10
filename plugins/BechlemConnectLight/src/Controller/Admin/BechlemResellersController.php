@@ -101,7 +101,7 @@ class BechlemResellersController extends AppController
     public function updateAll()
     {
         if ($this->getRequest()->is(['patch', 'post', 'put'])) {
-            if ($this->BechlemResellers->updateResellers()) {
+            if ($this->BechlemResellers->updateResellers($this)) {
                 $this->Flash->set(
                     __d('bechlem_connect_light', 'The Bechlem resellers have been updated.'),
                     ['element' => 'default', 'params' => ['class' => 'success']]

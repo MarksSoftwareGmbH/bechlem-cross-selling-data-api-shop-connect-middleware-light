@@ -27,7 +27,7 @@ declare(strict_types=1);
 use Cake\Routing\RouteBuilder;
 
 /** @var \Cake\Routing\RouteBuilder $routes */
-$routes->setExtensions(['json', 'xml', 'csv', 'txt']);
+$routes->setExtensions(['json', 'xml', 'csv', 'txt', 'pdf']);
 
 $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $routes) {
 
@@ -66,7 +66,7 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
          */
         $routes->prefix('Admin', ['_namePrefix' => 'admin:'], function (RouteBuilder $routes) {
             $routes
-                ->setExtensions(['ajax', 'json', 'xml', 'csv', 'txt']);
+                ->setExtensions(['ajax', 'json', 'xml', 'csv', 'txt', 'pdf']);
 
             // Switch locale
             $routes
@@ -467,6 +467,18 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
              */
             $routes
                 ->connect('/dashboard', ['controller' => 'Dashboards', 'action' => 'dashboard']);
+            $routes
+                ->connect('/application-documentation', ['controller' => 'Dashboards', 'action' => 'applicationDocumentation']);
+            $routes
+                ->connect('/application-documentation-pdf', ['controller' => 'Dashboards', 'action' => 'applicationDocumentationPdf', '_ext' => 'pdf']);
+            $routes
+                ->connect('/mit-license-documentation', ['controller' => 'Dashboards', 'action' => 'mitLicenseDocumentation']);
+            $routes
+                ->connect('/mit-license-documentation-pdf', ['controller' => 'Dashboards', 'action' => 'mitLicenseDocumentationPdf', '_ext' => 'pdf']);
+            $routes
+                ->connect('/rest-api-documentation', ['controller' => 'Dashboards', 'action' => 'restApiDocumentation']);
+            $routes
+                ->connect('/rest-api-documentation-pdf', ['controller' => 'Dashboards', 'action' => 'restApiDocumentationPdf', '_ext' => 'pdf']);
 
             /*
              * Domains Controller

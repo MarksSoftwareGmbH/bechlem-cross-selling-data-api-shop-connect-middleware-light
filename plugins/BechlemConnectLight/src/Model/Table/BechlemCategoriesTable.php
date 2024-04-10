@@ -176,10 +176,12 @@ class BechlemCategoriesTable extends Table
 
     /**
      * Update categories method.
-     *
+     * 
+     * @param object|null $controller
+     * 
      * @return bool
      */
-    public function updateCategories()
+    public function updateCategories(object $controller = null)
     {
         ini_set('memory_limit', '2048M');
         ini_set('max_execution_time', '900');
@@ -216,7 +218,7 @@ class BechlemCategoriesTable extends Table
         try {
             if (!empty($bechlemCategoriesRequest->id)) {
                 $bechlemCategoriesResponse = $BechlemConnectRequests->runRequest(
-                    null,
+                    $controller,
                     $bechlemCategoriesRequest
                 );
             }

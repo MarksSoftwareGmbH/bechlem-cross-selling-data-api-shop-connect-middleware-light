@@ -106,7 +106,7 @@ $this->Breadcrumbs->add([
                 <dl class="row">
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemCategory->id)? '-': h($bechlemCategory->id); ?></dd>
-                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id Category'); ?></dt>
+                    <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Id category'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemCategory->id_category)? '-': h($bechlemCategory->id_category); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Name'); ?></dt>
                     <dd class="col-sm-9"><?= empty($bechlemCategory->name)? '-': h($bechlemCategory->name); ?></dd>

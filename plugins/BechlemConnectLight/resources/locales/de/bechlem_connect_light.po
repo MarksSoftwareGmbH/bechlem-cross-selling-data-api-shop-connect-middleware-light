@@ -221,11 +221,11 @@ msgstr "Die Bechlem Drucker Serien konnten nicht aktualisiert werden. Bitte vers
 
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/BechlemPrinterToSuppliesController.php:105
 msgid "The Bechlem printers to supplies have been updated."
-msgstr "Die Bechlem Drucker zu Supplies sind aktualisiert worden."
+msgstr "Die Bechlem Drucker zu Zubehör sind aktualisiert worden."
 
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/BechlemPrinterToSuppliesController.php:112
 msgid "The Bechlem printers to supplies could not be updated. Please, try again."
-msgstr "Die Bechlem Drucker zu Supplies konnten nicht aktualisiert werden. Bitte versuchen Sie es erneut."
+msgstr "Die Bechlem Drucker zu Zubehör konnten nicht aktualisiert werden. Bitte versuchen Sie es erneut."
 
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/BechlemPrintersController.php:114
 msgid "The Bechlem printers have been updated."
@@ -269,11 +269,11 @@ msgstr "Die Bechlem Wiederverkäufer konnten nicht aktualisiert werden. Bitte ve
 
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/BechlemSuppliesController.php:126
 msgid "The Bechlem supplies have been updated."
-msgstr "Die Bechlem Supplies wurden aktualisiert."
+msgstr "Das Bechlem Zubehör wurde aktualisiert."
 
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/BechlemSuppliesController.php:133
 msgid "The Bechlem supplies could not be updated. Please, try again."
-msgstr "Die Bechlem Supplies konnten nicht aktualisiert werden. Bitte versuchen Sie es erneut."
+msgstr "Das Bechlem Zubehör konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut."
 
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/BechlemSupplySeriesesController.php:107
 msgid "The Bechlem supply series have been updated."
@@ -293,11 +293,11 @@ msgstr "Die Bechlem Supply zu Erstausrüster Referenzen konnten nicht aktualisie
 
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/BechlemSupplyToSuppliesController.php:105
 msgid "The Bechlem supply to supplies have been updated."
-msgstr "Die Bechlem Supply zu Supplies wurden aktualisiert."
+msgstr "Das Bechlem Zubehör zu Zubehör wurde aktualisiert."
 
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/BechlemSupplyToSuppliesController.php:112
 msgid "The Bechlem supply to supplies could not be updated. Please, try again."
-msgstr "Die Bechlem Supply zu Supplies konnten nicht aktualisiert werden. Bitte versuchen Sie es erneut."
+msgstr "Das Bechlem Zubehör zu Zubehör konnte nicht aktualisiert werden. Bitte versuchen Sie es erneut."
 
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/CountriesController.php:152
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/CountriesController.php:200
@@ -510,20 +510,20 @@ msgstr "Der Produkthersteller konnte nicht gelöscht werden. Bitte versuchen Sie
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/ProductProductTypeAttributeValuesController.php:154
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/ProductProductTypeAttributeValuesController.php:215
 msgid "The product type attribute value has been saved."
-msgstr "Der Produkttyp Attribut Wert wurde gespeichert."
+msgstr "Der Produkttyp Attributwert wurde gespeichert."
 
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/ProductProductTypeAttributeValuesController.php:164
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/ProductProductTypeAttributeValuesController.php:225
 msgid "The product type attribute value could not be saved. Please, try again."
-msgstr "Der Produkttyp Attribut Wert konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
+msgstr "Der Produkttyp Attributwert konnte nicht gespeichert werden. Bitte versuchen Sie es erneut."
 
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/ProductProductTypeAttributeValuesController.php:272
 msgid "The product type attribute value has been deleted."
-msgstr "Der Produkttyp Attribut Wert wurde gelöscht."
+msgstr "Der Produkttyp Attributwert wurde gelöscht."
 
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/ProductProductTypeAttributeValuesController.php:280
 msgid "The product type attribute value could not be deleted. Please, try again."
-msgstr "Der Produkttyp Attribut Wert konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
+msgstr "Der Produkttyp Attributwert konnte nicht gelöscht werden. Bitte versuchen Sie es erneut."
 
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/ProductSuppliersController.php:147
 #: ./plugins/BechlemConnectLight/src/Controller/Admin/ProductSuppliersController.php:193
@@ -1047,14 +1047,14 @@ msgstr "Kein Bild verfügbar"
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemBrands/view.php:46
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemCategories/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemCategories/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/view.php:46
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemIdentifiers/index.php:44
@@ -1082,116 +1082,119 @@ msgstr "Kein Bild verfügbar"
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplyToOemReferences/view.php:46
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplyToSupplies/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplyToSupplies/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/Countries/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/Countries/view.php:46
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/application_documentation.php:49
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:48
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:49
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:70
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/Domains/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/Domains/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/Locales/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/Locales/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/Logs/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/Logs/edit.php:37
+#: ./plugins/BechlemConnectLight/templates/Admin/Logs/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/Logs/edit.php:43
 #: ./plugins/BechlemConnectLight/templates/Admin/Logs/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/Logs/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/add.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/add.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:38
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/Products/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/Products/view.php:47
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/Registrations/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/Registrations/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:37
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:43
 #: ./plugins/BechlemConnectLight/templates/Admin/Roles/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/Roles/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:41
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:36
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:37
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:43
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/index.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:46
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:35
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:37
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:41
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:43
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:44
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:37
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:46
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:43
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:51
 #: ./plugins/BechlemConnectLight/templates/Admin/element/header.php:71
 msgid "Dashboard"
 msgstr "Dashboard"
@@ -1274,7 +1277,7 @@ msgstr "Dashboard"
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/index.php:68
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:84
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:68
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:84
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:89
 #: ./plugins/BechlemConnectLight/templates/Admin/element/header.php:100
 msgid "Search"
 msgstr "Suche"
@@ -1379,7 +1382,7 @@ msgstr "Sind Sie sicher, dass Sie alle Marken aktualisieren wollen?"
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/index.php:79
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:87
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:73
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:87
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:92
 msgid "Filter"
 msgstr "Filter"
 
@@ -1461,7 +1464,7 @@ msgstr "Filter"
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/index.php:84
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:92
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:78
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:97
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Users/reset.php:114
 #: ./plugins/BechlemConnectLight/templates/element/Users/reset.php:57
 #: ./plugins/BechlemConnectLight/templates/element/Users/reset.php:62
@@ -1912,7 +1915,7 @@ msgstr "JSON exportieren und herunterladen"
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplySerieses/view.php:111
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplyToOemReferences/view.php:113
 msgid "Id brand"
-msgstr "Id brand""
+msgstr "Id Brand"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemBrands/index.php:179
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemBrands/view.php:111
@@ -1953,8 +1956,8 @@ msgstr "Id brand""
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/index.php:183
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/view.php:128
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:170
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:143
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:148
 #: ./plugins/BechlemConnectLight/templates/element/Users/register.php:134
 msgid "Name"
 msgstr "Name"
@@ -1971,8 +1974,8 @@ msgstr "Name"
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/index.php:190
 #: ./plugins/BechlemConnectLight/templates/Admin/Products/index.php:169
 #: ./plugins/BechlemConnectLight/templates/Admin/Products/view.php:111
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:212
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:220
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:218
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:226
 #: ./plugins/BechlemConnectLight/templates/Admin/Registrations/index.php:181
 #: ./plugins/BechlemConnectLight/templates/Admin/Registrations/view.php:110
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Products/add_search_product_type.php:29
@@ -2033,20 +2036,20 @@ msgstr "Typ"
 #: ./plugins/BechlemConnectLight/templates/Admin/Roles/view.php:118
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/view.php:136
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:183
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:100
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:155
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:106
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:160
 msgid "Modified"
 msgstr "Geändert"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemBrands/index.php:182
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemCategories/index.php:182
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:102
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:99
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:108
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:105
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/index.php:192
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:105
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:96
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:111
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:102
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/index.php:193
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemIdentifiers/index.php:183
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemPrinterSerieses/index.php:182
@@ -2060,93 +2063,93 @@ msgstr "Geändert"
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplySerieses/index.php:181
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplyToOemReferences/index.php:182
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplyToSupplies/index.php:181
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:92
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:94
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:98
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:100
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/Countries/index.php:189
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:82
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:85
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:88
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:91
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/Domains/index.php:190
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:90
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:93
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:96
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:99
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/Locales/index.php:192
-#: ./plugins/BechlemConnectLight/templates/Admin/Logs/add.php:94
-#: ./plugins/BechlemConnectLight/templates/Admin/Logs/edit.php:98
+#: ./plugins/BechlemConnectLight/templates/Admin/Logs/add.php:100
+#: ./plugins/BechlemConnectLight/templates/Admin/Logs/edit.php:104
 #: ./plugins/BechlemConnectLight/templates/Admin/Logs/index.php:180
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:101
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:107
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/index.php:193
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:101
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:107
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/index.php:195
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/add.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/edit.php:91
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/add.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/edit.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/index.php:190
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/add.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/edit.php:91
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/add.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/edit.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/index.php:190
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/add.php:91
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/edit.php:94
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/add.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/edit.php:100
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/index.php:191
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:101
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:107
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/index.php:193
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/add.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/edit.php:81
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/add.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/edit.php:87
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/index.php:176
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/add.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/edit.php:107
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/add.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/edit.php:113
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/index.php:191
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/add.php:93
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/edit.php:96
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/add.php:99
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/edit.php:102
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/index.php:191
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/add.php:80
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/edit.php:75
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/add.php:86
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/edit.php:81
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/index.php:189
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/add.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/edit.php:91
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/add.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/edit.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/index.php:193
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/add.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/edit.php:91
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/add.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/edit.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/index.php:190
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:223
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:232
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:229
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:238
 #: ./plugins/BechlemConnectLight/templates/Admin/Products/index.php:181
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:89
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:92
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:95
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:98
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/index.php:189
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:206
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:209
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:212
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:215
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/Registrations/index.php:185
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:83
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:86
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:89
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:92
 #: ./plugins/BechlemConnectLight/templates/Admin/Roles/index.php:175
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:95
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:98
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:101
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:104
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:103
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/index.php:186
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:191
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:195
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:198
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:201
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/index.php:178
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:100
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:90
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:106
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:96
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:173
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:98
 msgid "Actions"
 msgstr "Aktionen"
 
@@ -2300,8 +2303,8 @@ msgstr "Aktionen"
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:61
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:70
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:201
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:61
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:70
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:66
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:75
 msgid "View"
 msgstr "Ansicht"
 
@@ -2349,22 +2352,22 @@ msgstr "Ansicht {name}"
 #: ./plugins/BechlemConnectLight/templates/Admin/Roles/view.php:108
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/view.php:108
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:109
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:66
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:109
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:72
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:114
 msgid "Id"
 msgstr "Id"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemBrands/view.php:113
 msgid "Upper name"
-msgstr "Name name"
+msgstr "Oberer Name"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemBrands/view.php:115
 msgid "Id par brand"
-msgstr "Id par brand"
+msgstr "Id par Brand"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemBrands/view.php:117
 msgid "Importance"
-msgstr "Importance"
+msgstr "Wichtigkeit"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemBrands/view.php:121
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemCategories/view.php:115
@@ -2405,8 +2408,8 @@ msgstr "Importance"
 #: ./plugins/BechlemConnectLight/templates/Admin/Roles/view.php:116
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/view.php:134
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:181
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:98
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:153
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:104
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:158
 msgid "Created"
 msgstr "Erstellt"
 
@@ -2447,7 +2450,7 @@ msgstr "Erstellt"
 #: ./plugins/BechlemConnectLight/templates/Admin/Roles/view.php:129
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/view.php:152
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:194
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:166
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:171
 msgid "REST API request"
 msgstr "REST-API Anfrage"
 
@@ -2489,7 +2492,7 @@ msgstr "REST-API Anfrage"
 #: ./plugins/BechlemConnectLight/templates/Admin/Roles/view.php:129
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/view.php:152
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:194
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:166
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:171
 msgid "JSON decoded version"
 msgstr "JSON dekodierte Version"
 
@@ -2531,7 +2534,7 @@ msgstr "JSON dekodierte Version"
 #: ./plugins/BechlemConnectLight/templates/Admin/Roles/view.php:149
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/view.php:172
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:214
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:186
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:191
 msgid "Index"
 msgstr "Index"
 
@@ -2544,12 +2547,12 @@ msgstr "Sind Sie sicher, dass Sie alle Kategorien aktualisieren möchten?"
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemPrinters/view.php:119
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplies/view.php:121
 msgid "Id category"
-msgstr "Id category"
+msgstr "Id Kategorie"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemCategories/index.php:180
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemCategories/view.php:113
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:82
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:85
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:88
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:91
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/index.php:189
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/view.php:135
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemPrinters/index.php:186
@@ -2561,14 +2564,14 @@ msgstr "Id category"
 msgid "Language"
 msgstr "Sprache"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:50
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:64
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/index.php:70
 msgid "Add config"
 msgstr "Konfiguration hinzufügen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:112
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:107
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:118
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:113
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/index.php:190
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/view.php:117
 #: ./plugins/BechlemConnectLight/templates/Admin/Domains/index.php:186
@@ -2576,383 +2579,392 @@ msgstr "Konfiguration hinzufügen"
 msgid "Scheme"
 msgstr "Schema"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:122
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:118
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:128
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:124
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/index.php:191
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/view.php:123
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:134
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:139
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:140
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:145
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/index.php:192
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/view.php:141
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:113
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:119
 #: ./plugins/BechlemConnectLight/templates/Admin/Countries/index.php:188
 #: ./plugins/BechlemConnectLight/templates/Admin/Countries/view.php:124
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:103
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:107
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:109
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:113
 #: ./plugins/BechlemConnectLight/templates/Admin/Locales/index.php:191
 #: ./plugins/BechlemConnectLight/templates/Admin/Locales/view.php:120
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:112
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:118
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/index.php:192
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/view.php:122
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:123
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:127
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:129
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:133
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/index.php:194
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/view.php:138
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:112
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:118
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/index.php:192
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/view.php:122
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/add.php:111
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/edit.php:115
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/add.php:117
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/edit.php:121
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/index.php:190
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/view.php:128
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:334
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:352
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:340
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:358
 #: ./plugins/BechlemConnectLight/templates/Admin/Products/index.php:179
 #: ./plugins/BechlemConnectLight/templates/Admin/Products/view.php:253
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:205
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:210
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:212
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:216
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/index.php:177
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:179
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:125
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:131
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:122
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:172
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:92
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:147
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:98
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:152
 msgid "Status"
 msgstr "Status"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:126
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:122
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:138
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:143
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:114
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:117
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:100
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:103
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:107
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:111
-#: ./plugins/BechlemConnectLight/templates/Admin/Logs/add.php:99
-#: ./plugins/BechlemConnectLight/templates/Admin/Logs/edit.php:103
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:112
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:116
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:127
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:131
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/add.php:93
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/edit.php:96
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/add.php:93
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/edit.php:96
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/add.php:96
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/edit.php:99
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:112
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:116
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/add.php:91
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/edit.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/add.php:115
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/edit.php:119
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/add.php:98
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/edit.php:101
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/add.php:85
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/edit.php:80
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/add.php:119
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/edit.php:123
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/add.php:99
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/edit.php:102
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:342
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:360
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:94
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:97
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:260
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:267
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:91
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:112
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:209
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:214
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:129
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:120
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:132
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:128
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:144
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:149
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:120
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:123
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:106
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:109
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:113
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:117
+#: ./plugins/BechlemConnectLight/templates/Admin/Logs/add.php:105
+#: ./plugins/BechlemConnectLight/templates/Admin/Logs/edit.php:109
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:118
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:122
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:133
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:137
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/add.php:99
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/edit.php:102
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/add.php:99
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/edit.php:102
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/add.php:102
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/edit.php:105
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:118
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:122
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/add.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/edit.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/add.php:121
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/edit.php:125
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/add.php:104
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/edit.php:107
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/add.php:91
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/edit.php:86
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/add.php:125
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/edit.php:129
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/add.php:105
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/edit.php:108
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:348
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:366
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:100
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:103
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:266
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:273
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:118
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:216
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:220
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:135
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:126
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:103
 #: ./plugins/BechlemConnectLight/templates/element/Users/register.php:238
 msgid "Submit"
 msgstr "Absenden"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:128
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:124
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:140
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:109
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:116
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:119
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:102
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:105
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:109
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:113
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/Logs/add.php:101
-#: ./plugins/BechlemConnectLight/templates/Admin/Logs/edit.php:105
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:114
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:118
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:129
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:133
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/add.php:95
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/edit.php:98
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/add.php:95
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/edit.php:98
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/add.php:98
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/edit.php:101
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:114
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:118
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/add.php:93
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/edit.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/add.php:117
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/edit.php:121
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/add.php:100
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/edit.php:103
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/add.php:87
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/edit.php:82
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/add.php:121
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/edit.php:125
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/add.php:101
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/edit.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:344
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:362
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:96
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:99
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:262
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:269
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:90
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:93
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:114
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:211
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:216
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:131
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:134
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:99
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:134
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:130
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:146
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:115
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:122
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:125
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:108
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:111
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:115
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:119
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/Logs/add.php:107
+#: ./plugins/BechlemConnectLight/templates/Admin/Logs/edit.php:111
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:120
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:124
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:135
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:139
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/add.php:101
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/edit.php:104
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/add.php:101
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/edit.php:104
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/add.php:104
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/edit.php:107
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:120
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:124
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/add.php:99
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/edit.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/add.php:123
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/edit.php:127
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/add.php:106
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/edit.php:109
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/add.php:93
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/edit.php:88
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/add.php:127
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/edit.php:131
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/add.php:107
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/edit.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:350
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:368
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:102
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:105
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:268
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:275
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:96
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:99
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:120
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:218
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:222
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:137
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:140
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:105
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:183
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:179
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/add.php:144
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/edit.php:147
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/add.php:144
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/edit.php:147
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/add.php:149
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/edit.php:152
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/add.php:170
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/edit.php:174
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/add.php:150
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/edit.php:153
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:127
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:130
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:171
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:175
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:189
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:185
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/add.php:150
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/edit.php:153
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/add.php:150
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/edit.php:153
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/add.php:155
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/edit.php:158
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/add.php:176
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/edit.php:180
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/add.php:156
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/edit.php:159
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:133
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:136
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:177
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:181
 msgid "Please enter a valid title"
 msgstr "Bitte geben Sie einen gültigen Titel ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:186
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:182
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/add.php:147
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/edit.php:150
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/add.php:147
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/edit.php:150
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/add.php:152
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/edit.php:155
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/add.php:173
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/edit.php:177
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/add.php:153
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/edit.php:156
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:151
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:130
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:133
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:192
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:188
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/add.php:153
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/edit.php:156
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/add.php:153
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/edit.php:156
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/add.php:158
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/edit.php:161
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/add.php:179
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/edit.php:183
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/add.php:159
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/edit.php:162
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:157
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:136
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:139
 msgid "Please enter a valid alias"
 msgstr "Bitte geben Sie einen gültigen Alias ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:189
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:185
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/add.php:195
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:191
 msgid "Please enter a valid host"
 msgstr "Bitte geben Sie einen gültigen Host ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:61
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/edit.php:67
 msgid "Edit config"
 msgstr "Konfiguration bearbeiten"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:66
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:107
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:108
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:67
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:108
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:72
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:113
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:114
 msgid "Import"
 msgstr "Import"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:85
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:86
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:91
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:92
 msgid "Select file"
 msgstr "Datei auswählen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:87
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:88
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:88
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:93
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:94
 msgid "Please use a valid csv file."
 msgstr "Bitte verwenden Sie eine gültige CSV-Datei."
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:128
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:132
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:103
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:134
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:138
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:109
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/index.php:191
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/view.php:139
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:104
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:104
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:110
 msgid "Log"
 msgstr "Loggen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:144
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:145
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:145
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:150
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:151
 msgid "Please enter a valid delimiter"
 msgstr "Bitte geben Sie einen gültigen delimiter ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:147
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:148
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:148
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/import.php:153
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:154
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:154
 msgid "Please enter a valid enclosure"
 msgstr "Bitte geben Sie einen gültigen enclosure ein"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/index.php:105
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/index.php:100
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/index.php:99
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/index.php:105
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/index.php:106
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/index.php:106
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/index.php:106
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/index.php:106
@@ -2964,6 +2976,9 @@ msgstr "Bitte geben Sie einen gültigen enclosure ein"
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributeChoices/index.php:106
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/index.php:106
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/index.php:106
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/index.php:105
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/index.php:99
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/index.php:100
 msgid "Upload & import csv"
 msgstr "CSV hochladen und importieren"
 
@@ -3068,7 +3083,7 @@ msgstr "Port"
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/index.php:212
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:225
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:227
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:197
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:202
 msgid "Edit"
 msgstr "Bearbeiten"
 
@@ -3141,14 +3156,14 @@ msgstr "Sind Sie sicher, dass sie \"{title}\" löschen wollen?"
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/index.php:230
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:237
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:245
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:209
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:214
 msgid "Delete"
 msgstr "Löschen"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/view.php:119
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:169
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:141
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:92
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:146
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Users/forgot.php:76
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Users/login.php:76
 #: ./plugins/BechlemConnectLight/templates/element/Users/forgot.php:125
@@ -3158,7 +3173,7 @@ msgid "Username"
 msgstr "Benutzername"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectConfigs/view.php:121
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:122
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:128
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Users/login.php:83
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Users/reset.php:78
 #: ./plugins/BechlemConnectLight/templates/element/Users/login.php:149
@@ -3188,88 +3203,88 @@ msgstr "Beschreibung"
 msgid "Requests"
 msgstr "Anfragen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:50
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:64
 #: ./plugins/BechlemConnectLight/templates/Admin/element/BechlemConnectRequests/add_bechlem_connect_request.php:29
 msgid "Add request"
 msgstr "Anfrage hinzufügen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:110
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:113
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:116
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:119
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/index.php:183
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/view.php:109
 #: ./plugins/BechlemConnectLight/templates/Admin/element/BechlemConnectRequests/add_search_bechlem_connect_config.php:29
 msgid "Config"
 msgstr "Konfiguration"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:118
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:121
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:124
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:127
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/index.php:186
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/view.php:129
 #: ./plugins/BechlemConnectLight/templates/Admin/element/BechlemConnectRequests/add_search_bechlem_connect_request_method.php:29
 msgid "Method"
 msgstr "Methode"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:205
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:210
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:171
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:174
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:157
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:160
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:159
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:163
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:163
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:167
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:178
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:182
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:163
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:167
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/add.php:169
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/edit.php:173
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:452
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:470
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:165
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:169
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:186
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:182
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:211
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:216
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:177
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:180
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:163
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:166
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:165
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:169
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:169
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:173
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:184
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:188
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:169
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:173
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/add.php:175
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/edit.php:179
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:458
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:476
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:171
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:175
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:192
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:188
 #: ./plugins/BechlemConnectLight/templates/element/Users/register.php:302
 msgid "Please enter a valid name"
 msgstr "Bitte geben Sie einen gültigen Namen ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:208
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:213
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:174
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:177
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:166
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:170
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:181
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:185
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:166
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:170
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:455
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:473
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:214
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:219
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:180
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:183
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:172
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:176
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:187
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:191
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/add.php:172
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/edit.php:176
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:461
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:479
 msgid "Please enter a valid slug"
 msgstr "Bitte geben Sie einen gültigen Slug ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:211
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:216
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:217
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:222
 msgid "Please enter a valid method"
 msgstr "Bitte geben Sie eine gültige Methode ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:214
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:219
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:154
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:157
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:220
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:225
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:160
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:163
 msgid "Please enter a valid url"
 msgstr "Bitte geben Sie eine gültige Url ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:217
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:222
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/add.php:223
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:228
 msgid "Please enter a valid data"
 msgstr "Bitte geben Sie gültige Daten ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:61
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/BechlemConnectRequests/edit.php:67
 msgid "Edit request"
 msgstr "Anfrage bearbeiten"
 
@@ -3332,7 +3347,7 @@ msgstr "Laufen lassen"
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/index.php:245
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/view.php:203
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:240
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:217
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:222
 msgid "Are you sure you want to delete \"{name}\"?"
 msgstr "Sind Sie sicher, dass Sie \"{name}\" löschen wollen?"
 
@@ -3353,22 +3368,22 @@ msgstr "Sind Sie sicher, dass Sie alle identifiers aktualisieren wollen?"
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplies/index.php:179
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplies/view.php:109
 msgid "Id item"
-msgstr "Id item"
+msgstr "Id Item"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemIdentifiers/index.php:179
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemIdentifiers/view.php:113
 msgid "Id type"
-msgstr "Id type"
+msgstr "Id Typ"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemIdentifiers/index.php:180
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemIdentifiers/view.php:115
 msgid "Id identifier"
-msgstr "Id identifier"
+msgstr "Id Identifier"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemIdentifiers/index.php:181
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemIdentifiers/view.php:117
 msgid "Sync id"
-msgstr "Sync id"
+msgstr "Sync Id"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemIdentifiers/index.php:252
 msgid "View {idIdentifier}"
@@ -3376,7 +3391,7 @@ msgstr "{idIdentifier} ansehen"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemIdentifiers/view.php:111
 msgid "Id position"
-msgstr "Id position"
+msgstr "Id Position"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemPrinterSerieses/index.php:77
 msgid "Are you sure you want update all printer serieses?"
@@ -3401,7 +3416,7 @@ msgstr "{idPrinterSeries} ansehen"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemPrinterSerieses/view.php:109
 msgid "Id printer series"
-msgstr "Id printer series"
+msgstr "Id Drucker Serie"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemPrinterToSupplies/index.php:77
 msgid "Are you sure you want update all printer to supplies?"
@@ -3410,7 +3425,7 @@ msgstr "Sind Sie sicher, dass Sie alle Drucker zu Verbrauchsmaterial aktualisier
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemPrinterToSupplies/index.php:178
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemPrinterToSupplies/view.php:109
 msgid "Id item printer"
-msgstr "Id item printer"
+msgstr "Id Item Drucker"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemPrinterToSupplies/index.php:179
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemPrinterToSupplies/view.php:111
@@ -3418,7 +3433,7 @@ msgstr "Id item printer"
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplyToSupplies/index.php:178
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplyToSupplies/view.php:109
 msgid "Id item supply"
-msgstr "Id item supply"
+msgstr "Id Item Supply"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemPrinterToSupplies/index.php:224
 msgid "View {id}"
@@ -3445,7 +3460,7 @@ msgstr "Bild"
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplyToOemReferences/index.php:179
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplyToOemReferences/view.php:117
 msgid "Art nr"
-msgstr "Art nr"
+msgstr "Art Nr"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemPrinters/index.php:183
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemPrinters/view.php:121
@@ -3486,12 +3501,12 @@ msgstr "Sind Sie sicher, dass Sie das gesamte Produktzubehör aktualisieren möc
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProductAccessories/index.php:178
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProductAccessories/view.php:109
 msgid "Bechlem product id"
-msgstr "Bechlem product id"
+msgstr "Bechlem Produkt Id"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProductAccessories/index.php:179
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProductAccessories/view.php:111
 msgid "Referenced product id"
-msgstr "Referenced product id"
+msgstr "Referenzierte Produkt Id"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProductAccessories/index.php:238
 msgid "View {bechlemProductId}"
@@ -3514,20 +3529,20 @@ msgstr "Bild"
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProducts/view.php:109
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProducts/view.php:146
 msgid "Bechlem id"
-msgstr "Bechlem id"
+msgstr "Bechlem Id"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProducts/index.php:180
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProducts/view.php:115
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProducts/view.php:147
 msgid "Your sku"
-msgstr "Ihre sku"
+msgstr "Ihre SKU"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProducts/index.php:181
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProducts/view.php:113
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProducts/view.php:148
 #: ./plugins/BechlemConnectLight/templates/Admin/Products/view.php:225
 msgid "Manufacturer sku"
-msgstr "Hersteller sku"
+msgstr "Hersteller SKU"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProducts/index.php:254
 msgid "View {bechlemId}"
@@ -3535,7 +3550,7 @@ msgstr "{bechlemId} ansehen"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProducts/view.php:117
 msgid "Manufacturer id"
-msgstr "Hersteller id"
+msgstr "Hersteller Id"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProducts/view.php:119
 msgid "Manufacturer name"
@@ -3551,7 +3566,7 @@ msgstr "Kurzbeschreibung"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProducts/view.php:125
 msgid "Product type id"
-msgstr "Produkttyp id"
+msgstr "Produkttyp Id"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemProducts/view.php:127
 msgid "Product type name"
@@ -3639,7 +3654,7 @@ msgstr "Inhalt"
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplies/view.php:139
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplyToOemReferences/view.php:123
 msgid "Content ml"
-msgstr "Inhalt ml"
+msgstr "Inhalt Ml"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/BechlemSupplies/view.php:141
 msgid "Content gram"
@@ -3687,67 +3702,63 @@ msgstr "Sind Sie sicher, dass Sie alle Supply zu Supplies aktualisieren wollen?"
 msgid "Id item supply 2"
 msgstr "Id Artikel Supply 2"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:50
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:59
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:65
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Countries/add_country.php:38
 msgid "Add country"
 msgstr "Land hinzufügen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:177
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:180
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:165
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:169
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/add.php:147
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/edit.php:150
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:183
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:186
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:171
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:175
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/add.php:153
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/edit.php:156
 msgid "Please enter a valid code"
 msgstr "Bitte geben Sie einen gültigen Code ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:180
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:183
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/add.php:186
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:189
 msgid "Please enter a valid translation"
 msgstr "Bitte geben Sie eine gültige Übersetzung ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:62
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/Countries/edit.php:68
 msgid "Edit country"
 msgstr "Land bearbeiten"
-
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/import.php:86
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/import.php:86
-msgid "Select file"
-msgstr "Datei auswählen"
-
-#: ./plugins/BechlemConnectLight/templates/Admin/Countries/index.php:99
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/index.php:105
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/index.php:106
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/index.php:105
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/index.php:99
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/index.php:100
-msgid "Upload & import csv"
-msgstr "CSV hochladen und importieren"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Countries/index.php:181
 #: ./plugins/BechlemConnectLight/templates/Admin/Countries/view.php:110
 #: ./plugins/BechlemConnectLight/templates/Admin/Locales/view.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/index.php:188
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/view.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/index.php:187
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/view.php:124
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/index.php:187
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductConditions/view.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/index.php:187
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductDeliveryTimes/view.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/index.php:187
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductIntrastatCodes/view.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/index.php:188
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductManufacturers/view.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/index.php:187
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductSuppliers/view.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/index.php:187
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTaxClasses/view.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/index.php:187
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypeAttributes/view.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/index.php:187
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/view.php:110
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/index.php:172
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/view.php:211
 #: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/index.php:186
 #: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/view.php:110
 #: ./plugins/BechlemConnectLight/templates/Admin/Roles/view.php:110
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/view.php:110
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:125
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:84
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:139
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:90
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:144
 msgid "Foreign key"
 msgstr "Fremdschlüssel"
 
@@ -3774,15 +3785,15 @@ msgstr "Info"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Countries/index.php:186
 #: ./plugins/BechlemConnectLight/templates/Admin/Countries/view.php:120
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:114
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:117
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:120
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/edit.php:123
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/index.php:193
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/view.php:136
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:115
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:105
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:121
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:111
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:168
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:76
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:125
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:82
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:130
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Countries/add_search_locale.php:38
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Users/add_search_locale.php:38
 msgid "Locale"
@@ -3793,18 +3804,44 @@ msgstr "Standort"
 msgid "Translation"
 msgstr "Übersetzung"
 
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/application_documentation.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/application_documentation.php:84
+msgid "Application documentation"
+msgstr "Applikation Dokumentation"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/application_documentation.php:62
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:54
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:62
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:83
 msgid "The current Bechlem Connect Config is running on the Bechlem GmbH API Version 1.2 Demo data."
 msgstr "Die aktuelle Bechlem Connect Config läuft auf den Bechlem GmbH API Version 1.2 Demo-Daten."
 
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/application_documentation.php:64
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:64
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:85
 msgid "Please update the default config with your license credentials (username and password)."
 msgstr "Bitte aktualisieren Sie die Standardkonfiguration mit Ihren Lizenz-Zugangsdaten (Benutzername und Passwort)."
 
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/application_documentation.php:73
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:65
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:377
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:73
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:94
 msgid "Update default config"
 msgstr "Standardkonfiguration aktualisieren"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/application_documentation.php:90
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:90
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:111
+msgid "Download as PDF"
+msgstr "Als PDF herunterladen"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/application_documentation.php:99
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:99
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:120
+msgid "Print"
+msgstr "Drucken"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:79
 msgid "Bechlem product manufacturers"
@@ -3841,8 +3878,8 @@ msgid "Products by type"
 msgstr "Produkte nach Typ"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:154
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:98
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:101
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:104
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:107
 #: ./plugins/BechlemConnectLight/templates/Admin/Locales/view.php:129
 msgid "Domains"
 msgstr "Domains"
@@ -3858,8 +3895,8 @@ msgid "More info"
 msgstr "Mehr Infos"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:177
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:97
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:100
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:103
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:106
 #: ./plugins/BechlemConnectLight/templates/Admin/Domains/view.php:125
 msgid "Locales"
 msgstr "Standorte"
@@ -3869,18 +3906,22 @@ msgid "Countries"
 msgstr "Länder"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:226
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:523
 msgid "Registrations"
-msgstr "Anmeldungen"
+msgstr "Registrierungen"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:249
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:480
 msgid "Roles"
 msgstr "Rollen"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:272
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:364
 msgid "Users"
 msgstr "Benutzer"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:295
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:414
 msgid "User profiles"
 msgstr "Benutzerprofile"
 
@@ -3926,7 +3967,7 @@ msgstr "mehr als 91.000 Drucker"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:343
 msgid "more than 153.000 supplies"
-msgstr "mehr als 153.000 Supplies"
+msgstr "mehr als 153.000 Zubehör"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/dashboard.php:344
 msgid "more than 19 million CrossSelling-Links"
@@ -3964,19 +4005,179 @@ msgstr "Weiter zum Kontaktformular der Bechlem GmbH"
 msgid "I have already the Bechlem GmbH API interface license!"
 msgstr "Ich habe bereits die Bechlem GmbH API Schnittstellenlizenz!"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:50
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:59
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:84
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:29
+msgid "MIT license documentation"
+msgstr "MIT Lizenz Dokumentation"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:103
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:30
+msgid "BECHLEM CONNECT \"LIGHT\" is an open source project that is licensed under the {mitLicense}. This allows you to do pretty much anything you want as long as you include the copyright in “all copies or substantial portions of the Software”."
+msgstr "BECHLEM CONNECT \"LIGHT\" ist ein Open-Source Projekt, das unter der {mitLicense} lizenziert ist. Dies erlaubt Ihnen, so ziemlich alles zu tun, was Sie wollen, solange Sie das Copyright in "alle Kopien oder wesentlichen Teile der Software" aufnehmen."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:107
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:111
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:34
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:39
+msgid "MIT license"
+msgstr "MIT Lizenz"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:115
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:43
+msgid "What you are {allowed} to do with BECHLEM CONNECT \"LIGHT\""
+msgstr "Was Sie mit BECHLEM CONNECT \"LIGHT\" {allowed}"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:115
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:43
+msgid "ALLOWED"
+msgstr "machen dürfen"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:118
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:46
+msgid "Use in commercial projects."
+msgstr "Verwendung in kommerziellen Projekten."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:119
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:47
+msgid "Use in personal / private projects."
+msgstr "Verwendung in persönlichen / privaten Projekten."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:120
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:48
+msgid "Modify and change the work."
+msgstr "Ändern und verändern Sie das Werkstück."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:121
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:49
+msgid "Distribute the code."
+msgstr "Verbreiten Sie den Code."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:122
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:50
+msgid "Sublicense: incorporate the work into something that has a more restrictive license."
+msgstr "Unterlizenz: das Werk in etwas einbauen, das eine restriktivere Lizenz hat."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:125
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:53
+msgid "What you {must} to do with BECHLEM CONNECT \"LIGHT\""
+msgstr "Was Sie mit BECHLEM CONNECT \"LIGHT\" {must}"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:125
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:53
+msgid "MUST"
+msgstr "machen müssen"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:128
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:56
+msgid "Include the license notice in all copies of the work."
+msgstr "Fügen Sie den Lizenzhinweis in alle Kopien des Werks ein."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:129
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:57
+msgid "Include the copyright notice in all copies of the work. This applies to everything inclusive the copyright notice in the application footer."
+msgstr "Fügen Sie den Urheberrechtsvermerk in alle Kopien des Werks ein. Dies gilt für alles einschließlich des Urheberrechtsvermerks in der Fußzeile der Anwendung."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:132
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:60
+msgid "What you are {notAllowed} to do with BECHLEM CONNECT \"LIGHT\""
+msgstr "Was Sie mit BECHLEM CONNECT \"LIGHT\" {notAllowed}"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:132
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:60
+msgid "NOT ALLOWED"
+msgstr "nicht machen dürfen"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/mit_license_documentation.php:135
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/mit_license_documentation_pdf.php:63
+msgid "The work is provided “as is”. You may not hold the author liable."
+msgstr "Das Werk wird "wie gesehen" zur Verfügung gestellt. Sie können den Autor nicht haftbar machen."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:77
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:105
+msgid "REST API documentation"
+msgstr "REST API Dokumentation"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:57
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:124
+msgid "The REST API lets you build apps and integrations that extend and enhance the BECHLEM CONNECT \"LIGHT\" application and middleware."
+msgstr "Mit der REST API können Sie Anwendungen und Integrationen erstellen, die die BECHLEM CONNECT \"LIGHT\" Anwendung und Middleware erweitern und verbessern."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:62
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:129
+msgid "REST API user"
+msgstr "REST API Benutzer"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:65
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:132
+msgid "First you need to create a {user} with the {role} \"{rest}\" for the authentication request."
+msgstr "Zuerst müssen Sie einen {user} mit der {role} \"{rest}\" für die Authentifizierungsanfrage erstellen."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:94
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:103
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:161
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:170
+msgid "Rest"
+msgstr "Rest"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:111
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:178
+msgid "Authentication"
+msgstr "Authentifizierung"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:181
+msgid "All REST API queries require a valid {jwt}."
+msgstr "Alle REST API Abfragen erfordern einen gültigen {jwt}."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:127
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:194
+msgid "This is an open standard ({rfc7519}) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object."
+msgstr "Dies ist ein offener Standard ({rfc7519}), der eine kompakte und in sich geschlossene Methode zur sicheren Übertragung von Informationen zwischen Parteien als JSON-Objekt definiert."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:141
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:208
+msgid "Second you need to request a Bearer token with the created Rest user via username:password through a POST method."
+msgstr "Zweitens müssen Sie ein Bearer-Token mit dem erstellten Rest Benutzer über Benutzername:Passwort über eine POST Methode anfordern."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:142
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:209
+msgid "Whenever the user wants to access a protected route or resource, the user agent should send the JWT, typically in the Authorization header using the Bearer schema. The content of the header should look like the following:"
+msgstr "Wann immer der Benutzer auf eine geschützte Route oder Ressource zugreifen möchte, sollte der Benutzeragent den JWT senden, normalerweise im Authorization-Header unter Verwendung des Bearer Schemas. Der Inhalt des Headers sollte wie folgt aussehen:"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:144
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:211
+msgid "Include your token as a Bearer-Token header on all API queries."
+msgstr "Fügen Sie Ihr Token als Bearer-Token Header in alle API Abfragen ein."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:145
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:212
+msgid "To keep the platform secure, apps need to request specific access scopes during the process."
+msgstr "Um die Sicherheit der Plattform zu gewährleisten, müssen die Anwendungen während des Prozesses bestimmte Zugriffsbereiche anfordern."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:146
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:213
+msgid "Only request as much data access as your app needs to work."
+msgstr "Fordern Sie nur so viel Datenzugriff an, wie Ihre Anwendung zum Funktionieren benötigt."
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:2663
+msgid "Product types"
+msgstr "Produkttypen"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:65
 #: ./plugins/BechlemConnectLight/templates/Admin/Domains/index.php:70
 msgid "Add domain"
 msgstr "Domain hinzufügen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:160
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:163
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/add.php:166
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:169
 msgid "Please enter a valid theme"
 msgstr "Bitte geben Sie ein gültiges Theme ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:62
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/Domains/edit.php:68
 msgid "Edit domain"
 msgstr "Domain bearbeiten"
 
@@ -3985,25 +4186,25 @@ msgstr "Domain bearbeiten"
 msgid "Theme"
 msgstr "Theme"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:50
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:59
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:65
 #: ./plugins/BechlemConnectLight/templates/Admin/Locales/index.php:70
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Locales/add_locale.php:38
 msgid "Add locale"
 msgstr "Gebietsschema hinzufügen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:162
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:166
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:168
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:172
 msgid "Please enter a valid native"
 msgstr "Bitte eine gültige Muttersprache eingeben"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:168
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:172
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/add.php:174
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:178
 msgid "Please enter a valid weight"
 msgstr "Bitte geben Sie ein gültiges Gewicht ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:62
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/Locales/edit.php:68
 msgid "Edit locale"
 msgstr "Gebietsschema bearbeiten"
 
@@ -4017,21 +4218,69 @@ msgstr "Nativ"
 msgid "Weight"
 msgstr "Gewicht"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Logs/add.php:50
-#: ./plugins/BechlemConnectLight/templates/Admin/Logs/add.php:59
+#: ./plugins/BechlemConnectLight/templates/Admin/Logs/add.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/Logs/add.php:65
 #: ./plugins/BechlemConnectLight/templates/Admin/Logs/index.php:70
 msgid "Add log"
 msgstr "Protokoll hinzufügen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Logs/edit.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/Logs/edit.php:63
+#: ./plugins/BechlemConnectLight/templates/Admin/Logs/edit.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/Logs/edit.php:69
 msgid "Edit log"
 msgstr "Protokoll bearbeiten"
 
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:147
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:214
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:366
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:416
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:482
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:525
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:610
 #: ./plugins/BechlemConnectLight/templates/Admin/Logs/index.php:173
 #: ./plugins/BechlemConnectLight/templates/Admin/Logs/view.php:110
 msgid "Request"
 msgstr "Anfrage"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:150
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:222
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:377
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:427
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:493
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:536
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:621
+msgid "Response"
+msgstr "Antwort"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:167
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:239
+msgid "Code snippet"
+msgstr "Codeschnipsel"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:607
+msgid "Registration types"
+msgstr "Registrierungsarten"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:833
+msgid "Logs"
+msgstr "Protokolle"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:881
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:930
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:981
+msgid "Bechlem Connect"
+msgstr "Bechlem Connect"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:930
+msgid "Configs"
+msgstr "Konfigurationen"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1038
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1086
+msgid "Bechlem"
+msgstr "Bechlem"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Logs/index.php:175
 #: ./plugins/BechlemConnectLight/templates/Admin/Logs/view.php:114
@@ -4062,14 +4311,14 @@ msgstr "Sind Sie sicher, dass Sie \"{request}\" löschen wollen?"
 msgid "JSON encoded version"
 msgstr "JSON kodierte Version"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:50
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:59
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/add.php:65
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/index.php:70
 msgid "Add product brand"
 msgstr "Produktmarke hinzufügen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:62
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductBrands/edit.php:68
 msgid "Edit product brand"
 msgstr "Produktmarke bearbeiten"
 
@@ -4112,8 +4361,8 @@ msgstr "Fremdschlüssel"
 msgid "Website"
 msgstr "Webseite"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:50
-#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:59
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/add.php:65
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductCategories/index.php:70
 msgid "Add product category"
 msgstr "Produktkategorie hinzufügen"
@@ -4209,12 +4458,12 @@ msgstr "Produkthersteller bearbeiten"
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/add.php:50
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/add.php:59
 msgid "Add Type Attribute Value"
-msgstr "Typattributwert hinzufügen"
+msgstr "Typ Attributwert hinzufügen"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/edit.php:44
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/edit.php:54
 msgid "Edit type attribute value"
-msgstr "Typattributwert bearbeiten"
+msgstr "Typ Attributwert bearbeiten"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductProductTypeAttributeValues/index.php:70
 msgid "Add type option value"
@@ -4393,6 +4642,18 @@ msgstr "Attribute"
 msgid "Edit product type"
 msgstr "Produkttyp bearbeiten"
 
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:2467
+msgid "Product suppliers"
+msgstr "Produktlieferanten"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:2520
+msgid "Product tax classes"
+msgstr "Produkt Steuerklassen"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:2569
+msgid "Product type attribute choices"
+msgstr "Produkttyp Attributauswahl"
+
 #: ./plugins/BechlemConnectLight/templates/Admin/ProductTypes/view.php:128
 msgid "Product type attributes"
 msgstr "Produkttyp Attribute"
@@ -4456,6 +4717,79 @@ msgstr "Marken"
 #: ./plugins/BechlemConnectLight/templates/Admin/Products/view.php:181
 msgid "Categories"
 msgstr "Kategorien"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1131
+msgid "Identifiers"
+msgstr "Identifikatoren"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1178
+msgid "Printers"
+msgstr "Drucker"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1231
+msgid "Printer serieses"
+msgstr "Drucker Serien"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1277
+msgid "Printer to supplies"
+msgstr "Drucker zu Zubehör"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1321
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:2065
+msgid "Products"
+msgstr "Produkte"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1419
+msgid "Resellers"
+msgstr "Wiederverkäufer"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1464
+msgid "Reseller items"
+msgstr "Wiederverkäufer Artikel"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1514
+msgid "Supplies"
+msgstr "Zubehör"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1579
+msgid "Supply serieses"
+msgstr "Supply Serien"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1625
+msgid "Supply to oem references"
+msgstr "Supply zu OEM Referenzen"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1675
+msgid "Supply to supplies"
+msgstr "Zubehör zu Zubehör"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1719
+msgid "Product brands"
+msgstr "Produkt Brands"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1770
+msgid "Product categories"
+msgstr "Produkt Kategorien"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1827
+msgid "Product conditions"
+msgstr "Produkt Konditionen"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1875
+msgid "Product delivery times"
+msgstr "Produkt Lieferzeiten"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1923
+msgid "Product intrastat codes"
+msgstr "Produkt Intrastat Codes"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:1970
+msgid "Product manufacturers"
+msgstr "Produkt Hersteller"
+
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:2021
+msgid "Product type attribute values"
+msgstr "Produkttyp Attributwerte"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:287
 #: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:296
@@ -4532,13 +4866,13 @@ msgstr "Bitte geben Sie eine gültige Hersteller SKU ein"
 msgid "Please enter a valid stock"
 msgstr "Bitte geben Sie einen gültigen Bestand ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:461
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:479
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/add.php:467
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:485
 msgid "Please enter a valid price"
 msgstr "Bitte geben Sie einen gültigen Preis ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:53
-#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:63
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:59
+#: ./plugins/BechlemConnectLight/templates/Admin/Products/edit.php:69
 msgid "Edit product"
 msgstr "Produkt bearbeiten"
 
@@ -4599,67 +4933,67 @@ msgstr "Ansicht Zähler"
 msgid "Type attributes"
 msgstr "Typ Attribute"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:50
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:59
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/add.php:65
 #: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/index.php:70
 msgid "Add registration type"
 msgstr "Registrierungstyp hinzufügen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:62
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/RegistrationTypes/edit.php:68
 msgid "Edit registration type"
 msgstr "Registrierungstyp bearbeiten"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:50
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:59
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:65
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Registrations/add_registration.php:38
 msgid "Add registration"
 msgstr "Registrierung hinzufügen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:238
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:242
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:244
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:248
 #: ./plugins/BechlemConnectLight/templates/Admin/Registrations/view.php:212
 msgid "Newsletter"
 msgstr "Newsletter"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:244
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:249
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:250
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:255
 #: ./plugins/BechlemConnectLight/templates/Admin/Registrations/view.php:214
 msgid "Marketing"
 msgstr "Marketing"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:250
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:256
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:263
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:256
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:262
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:269
 #: ./plugins/BechlemConnectLight/templates/Admin/Registrations/view.php:216
 msgid "Terms conditions"
 msgstr "Bedingungen und Konditionen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:256
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:262
 #: ./plugins/BechlemConnectLight/templates/Admin/Registrations/view.php:218
 #: ./plugins/BechlemConnectLight/templates/element/Users/register.php:215
 msgid "Privacy policy"
 msgstr "Datenschutzbestimmungen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:303
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:310
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:309
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:316
 msgid "Please enter a valid billing name"
 msgstr "Bitte geben Sie eine gültigen Rechnungs Namen ein."
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:306
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:313
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/add.php:312
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:319
 msgid "Please enter a valid billing vat number"
 msgstr "Bitte geben Sie eine gültige Rechnungs Umsatzsteuer-Identifikationsnummer ein."
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:62
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/Registrations/edit.php:68
 msgid "Edit registration"
 msgstr "Registrierung bearbeiten"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Registrations/index.php:183
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:171
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:90
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:145
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:96
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:150
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Users/forgot.php:83
 #: ./plugins/BechlemConnectLight/templates/element/Users/forgot.php:132
 #: ./plugins/BechlemConnectLight/templates/element/Users/register.php:149
@@ -4816,25 +5150,25 @@ msgstr "Anmerkung"
 msgid "Register excerpt"
 msgstr "Registerauszug"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:50
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:59
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/add.php:65
 #: ./plugins/BechlemConnectLight/templates/Admin/Roles/index.php:70
 msgid "Add role"
 msgstr "Rolle hinzufügen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:62
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/Roles/edit.php:68
 msgid "Edit role"
 msgstr "Rolle bearbeiten"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:50
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:59
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:65
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Settings/add_setting.php:38
 msgid "Add setting"
 msgstr "Einstellung hinzufügen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:101
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:104
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:107
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:110
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/index.php:181
 #: ./plugins/BechlemConnectLight/templates/Admin/Settings/view.php:112
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Locales/add_search_domain.php:38
@@ -4842,13 +5176,13 @@ msgstr "Einstellung hinzufügen"
 msgid "Domain"
 msgstr "Domain"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:162
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:166
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/add.php:168
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:172
 msgid "Please enter a valid parameter"
 msgstr "Bitte geben Sie einen gültigen Parameter ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:62
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/Settings/edit.php:68
 msgid "Edit setting"
 msgstr "Einstellung bearbeiten"
 
@@ -4858,66 +5192,70 @@ msgstr "Einstellung bearbeiten"
 msgid "Parameter"
 msgstr "Parameter"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:51
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:63
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:70
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/index.php:70
 msgid "Add user profile"
 msgstr "Benutzerprofil hinzufügen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:112
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:114
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:119
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:120
 msgid "Male"
 msgstr "Männlich"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:113
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:115
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:120
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:121
 msgid "Female"
 msgstr "Weiblich"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:196
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:200
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:70
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:78
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:137
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:145
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:203
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:206
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/index.php:173
 #: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/view.php:111
 msgid "User"
 msgstr "Benutzer"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:257
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:262
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:264
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:268
 msgid "Please enter a valid about me text"
 msgstr "Bitte einen gültigen Text über mich eingeben"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:281
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:289
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:288
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:295
 msgid "Please select a timezone"
 msgstr "Bitte wählen Sie eine Zeitzone"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:284
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:292
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:291
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:298
 msgid "Please select a salutation"
 msgstr "Bitte wählen Sie eine Anrede"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:287
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:295
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:294
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:301
 msgid "Please enter a valid first name"
 msgstr "Bitte geben Sie einen gültigen Vornamen ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:290
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:298
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:297
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:304
 msgid "Please enter a valid last name"
 msgstr "Bitte geben Sie einen gültigen Nachnamen ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:293
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:301
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:300
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:307
 msgid "Please select a gender"
 msgstr "Bitte wählen Sie ein Geschlecht"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:310
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:318
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/add.php:317
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:324
 msgid "Please enter 17 valid tags"
 msgstr "Bitte geben Sie 17 gültige Tags ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:66
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/UserProfiles/edit.php:72
 msgid "Edit user profile"
 msgstr "Benutzerprofil bearbeiten"
 
@@ -4996,35 +5334,39 @@ msgstr "Ansicht Zähler"
 msgid "Are you sure you want to delete \"{fullName}\"?"
 msgstr "Sind Sie sicher, dass Sie \"{fullName}\" löschen wollen?"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:50
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:59
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:56
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:65
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Users/add_user.php:38
 msgid "Add user"
 msgstr "Benutzer hinzufügen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:89
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:81
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:95
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:87
 #: ./plugins/BechlemConnectLight/templates/element/Users/register.php:178
 msgid "Password proposal"
 msgstr "Passwort Vorschlag"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:91
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:83
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:97
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:89
 #: ./plugins/BechlemConnectLight/templates/element/Users/register.php:180
 msgid "use"
 msgstr "verwenden"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:106
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:96
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:82
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/pdf/rest_api_documentation_pdf.php:90
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:149
+#: ./plugins/BechlemConnectLight/templates/Admin/Dashboards/rest_api_documentation.php:157
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:112
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:102
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:167
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:68
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:111
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:74
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:116
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Users/add_search_role.php:38
 msgid "Role"
 msgstr "Rolle"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:183
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:179
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:189
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:185
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Users/login.php:138
 #: ./plugins/BechlemConnectLight/templates/element/Users/forgot.php:215
 #: ./plugins/BechlemConnectLight/templates/element/Users/login.php:211
@@ -5032,15 +5374,15 @@ msgstr "Rolle"
 msgid "Please enter a valid username"
 msgstr "Bitte geben Sie einen gültigen Benutzernamen ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:189
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:185
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:195
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:191
 #: ./plugins/BechlemConnectLight/templates/element/Users/forgot.php:218
 #: ./plugins/BechlemConnectLight/templates/element/Users/register.php:308
 msgid "Please enter a valid email address"
 msgstr "Bitte geben Sie eine gültige E-Mail Adresse ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:192
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:134
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/add.php:198
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:140
 #: ./plugins/BechlemConnectLight/templates/Admin/element/Users/login.php:141
 #: ./plugins/BechlemConnectLight/templates/element/Users/login.php:214
 #: ./plugins/BechlemConnectLight/templates/element/Users/register.php:314
@@ -5048,32 +5390,32 @@ msgstr "Bitte geben Sie eine gültige E-Mail Adresse ein"
 msgid "Please enter a valid password"
 msgstr "Bitte geben Sie ein gültiges Passwort ein"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:63
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/edit.php:69
 msgid "Edit user"
 msgstr "Benutzer bearbeiten"
 
 #: ./plugins/BechlemConnectLight/templates/Admin/Users/index.php:214
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:66
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/reset_password.php:72
 #: ./plugins/BechlemConnectLight/templates/email/html/reset_password.php:32
 #: ./plugins/BechlemConnectLight/templates/email/html/reset_password.php:197
 msgid "Reset password"
 msgstr "Passwort zurücksetzen"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:52
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:61
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:58
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:67
 #: ./plugins/BechlemConnectLight/templates/Admin/element/header.php:174
 msgid "Profile"
 msgstr "Profil"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:94
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:149
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:100
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:154
 msgid "Activation date"
 msgstr "Aktivierungsdatum"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:96
-#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:151
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/profile.php:102
+#: ./plugins/BechlemConnectLight/templates/Admin/Users/view.php:156
 msgid "Last login"
 msgstr "Letzter Login"
 
@@ -5385,15 +5727,18 @@ msgstr "Tasten Farbe"
 msgid "Box color"
 msgstr "Box Farbe"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/element/footer.php:29
+#: ./plugins/BechlemConnectLight/templates/Admin/element/footer.php:37
+#: ./plugins/BechlemConnectLight/templates/Admin/layout/pdf/default.php:127
 msgid "&copy; Copyright {date} {link}"
 msgstr "&copy; Copyright {date} {link}"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/element/footer.php:40
+#: ./plugins/BechlemConnectLight/templates/Admin/element/footer.php:48
+#: ./plugins/BechlemConnectLight/templates/Admin/layout/pdf/default.php:141
 msgid "All rights reserved."
 msgstr "Alle Rechte vorbehalten."
 
-#: ./plugins/BechlemConnectLight/templates/Admin/element/footer.php:42
+#: ./plugins/BechlemConnectLight/templates/Admin/element/footer.php:50
+#: ./plugins/BechlemConnectLight/templates/Admin/layout/pdf/default.php:142
 msgid "Powered by {bechlemConnectLight}"
 msgstr "Powered by {bechlemConnectLight}"
 
@@ -5401,19 +5746,19 @@ msgstr "Powered by {bechlemConnectLight}"
 msgid "Logout"
 msgstr "Abmelden"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/element/paginator.php:31
+#: ./plugins/BechlemConnectLight/templates/Admin/element/paginator.php:30
 msgid "First"
 msgstr "Erste"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/element/paginator.php:32
+#: ./plugins/BechlemConnectLight/templates/Admin/element/paginator.php:31
 msgid "Previous"
 msgstr "Zurück"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/element/paginator.php:34
+#: ./plugins/BechlemConnectLight/templates/Admin/element/paginator.php:33
 msgid "Next"
 msgstr "Nächste"
 
-#: ./plugins/BechlemConnectLight/templates/Admin/element/paginator.php:35
+#: ./plugins/BechlemConnectLight/templates/Admin/element/paginator.php:34
 msgid "Last"
 msgstr "Letzte"
 

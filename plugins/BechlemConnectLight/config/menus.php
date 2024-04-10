@@ -685,5 +685,55 @@ return [
             'options' => ['escape' => false],
             'position' => 90,
         ],
+        'BechlemConnectLight.Documentations' => [
+            'controller' => [
+                'Dashboards',
+            ],
+            'title' => 'Documentations',
+            'icon' => 'copy',
+            'branch' => [
+                'BechlemConnectLight.Application' => [
+                    'controller' => 'Dashboards',
+                    'title' => 'Application',
+                    'icon' => 'file-contract',
+                    'link' => [
+                        'prefix' => 'Admin',
+                        'plugin' => 'BechlemConnectLight',
+                        'controller' => 'Dashboards',
+                        'action' => 'applicationDocumentation',
+                    ],
+                    'options' => ['escape' => false],
+                    'position' => 1,
+                ],
+                'BechlemConnectLight.License' => [
+                    'controller' => 'Dashboards',
+                    'title' => 'MIT License',
+                    'icon' => 'bookmark',
+                    'link' => [
+                        'prefix' => 'Admin',
+                        'plugin' => 'BechlemConnectLight',
+                        'controller' => 'Dashboards',
+                        'action' => 'mitLicenseDocumentation',
+                    ],
+                    'options' => ['escape' => false],
+                    'position' => 2,
+                ],
+                'BechlemConnectLight.RestApi' => [
+                    'controller' => 'Dashboards',
+                    'title' => 'REST API',
+                    'icon' => 'code',
+                    'link' => [
+                        'prefix' => 'Admin',
+                        'plugin' => 'BechlemConnectLight',
+                        'controller' => 'Dashboards',
+                        'action' => 'restApiDocumentation',
+                    ],
+                    'options' => ['escape' => false],
+                    'position' => 3,
+                ],
+            ],
+            'options' => ['escape' => false],
+            'position' => 100,
+        ],
     ],
 ];

@@ -30,6 +30,7 @@ use BechlemConnectLight\Controller\Admin\AppController;
 use BechlemConnectLight\Utility\BechlemConnectLight;
 use Cake\Http\CallbackStream;
 use Cake\I18n\DateTime;
+use Cake\ORM\TableRegistry;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 
@@ -128,7 +129,37 @@ class BechlemProductsController extends AppController
     public function updateAll()
     {
         if ($this->getRequest()->is(['patch', 'post', 'put'])) {
-            if ($this->BechlemProducts->updateProducts()) {
+
+            $BechlemBrands = TableRegistry::getTableLocator()->get('BechlemConnectLight.BechlemBrands');
+            $BechlemCategories = TableRegistry::getTableLocator()->get('BechlemConnectLight.BechlemCategories');
+            $BechlemIdentifiers = TableRegistry::getTableLocator()->get('BechlemConnectLight.BechlemIdentifiers');
+            $BechlemPrinters = TableRegistry::getTableLocator()->get('BechlemConnectLight.BechlemPrinters');
+            $BechlemPrinterSerieses = TableRegistry::getTableLocator()->get('BechlemConnectLight.BechlemPrinterSerieses');
+            $BechlemPrinterToSupplies = TableRegistry::getTableLocator()->get('BechlemConnectLight.BechlemPrinterToSupplies');
+            $BechlemResellerItems = TableRegistry::getTableLocator()->get('BechlemConnectLight.BechlemResellerItems');
+            $BechlemResellers = TableRegistry::getTableLocator()->get('BechlemConnectLight.BechlemResellers');
+            $BechlemSupplies = TableRegistry::getTableLocator()->get('BechlemConnectLight.BechlemSupplies');
+            $BechlemSupplySerieses = TableRegistry::getTableLocator()->get('BechlemConnectLight.BechlemSupplySerieses');
+            $BechlemSupplyToOemReferences = TableRegistry::getTableLocator()->get('BechlemConnectLight.BechlemSupplyToOemReferences');
+            $BechlemSupplyToSupplies = TableRegistry::getTableLocator()->get('BechlemConnectLight.BechlemSupplyToSupplies');
+            $BechlemProductAccessories = TableRegistry::getTableLocator()->get('BechlemConnectLight.BechlemProductAccessories');
+
+            if (
+                $BechlemBrands->updateBrands($this) && 
+                $BechlemCategories->updateCategories($this) &&
+                $BechlemIdentifiers->updateIdentifiers($this) &&
+                $BechlemPrinters->updatePrinters($this) &&
+                $BechlemPrinterSerieses->updatePrinterSerieses($this) &&
+                $BechlemPrinterToSupplies->updatePrinterToSupplies($this) &&
+                $BechlemResellerItems->updateResellerItems($this) &&
+                $BechlemResellers->updateResellers($this) &&
+                $BechlemSupplies->updateSupplies($this) &&
+                $BechlemSupplySerieses->updateSupplySerieses($this) &&
+                $BechlemSupplyToOemReferences->updateSupplyToOemReferences($this) &&
+                $BechlemSupplyToSupplies->updateSupplyToSupplies($this) &&
+                $BechlemProductAccessories->updateProductAccessories($this) &&
+                $this->BechlemProducts->updateProducts($this)
+            ) {
                 $this->Flash->set(
                     __d('bechlem_connect_light', 'The Bechlem products have been updated.'),
                     ['element' => 'default', 'params' => ['class' => 'success']]

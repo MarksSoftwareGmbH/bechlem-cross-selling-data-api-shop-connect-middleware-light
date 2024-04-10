@@ -202,10 +202,12 @@ class BechlemSupplyToOemReferencesTable extends Table
 
     /**
      * Update supply to oem references method.
-     *
+     * 
+     * @param object|null $controller
+     * 
      * @return bool
      */
-    public function updateSupplyToOemReferences()
+    public function updateSupplyToOemReferences(object $controller = null)
     {
         ini_set('memory_limit', '2048M');
         ini_set('max_execution_time', '900');
@@ -237,7 +239,7 @@ class BechlemSupplyToOemReferencesTable extends Table
         try {
             if (!empty($bechlemSupplyToOemReferencesRequest->id)) {
                 $bechlemSupplyToOemReferencesResponse = $BechlemConnectRequests->runRequest(
-                    null,
+                    $controller,
                     $bechlemSupplyToOemReferencesRequest
                 );
             }
