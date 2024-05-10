@@ -95,7 +95,7 @@ class EventManager extends CakeEventManager
                     list($plugin, $class) = pluginSplit($eventOptions['options']['className']);
                 }
                 $class = App::className($eventHandler, 'Event');
-                if (class_exists($class)) {
+                if (!is_null($class) && class_exists($class)) {
                     $cached[] = compact('plugin', 'class', 'eventKey', 'eventOptions');
                 } else {
                     Log::error(__d('bechlem_connect_light', 'EventHandler {0} not found in plugin {1}.', $class, $plugin));

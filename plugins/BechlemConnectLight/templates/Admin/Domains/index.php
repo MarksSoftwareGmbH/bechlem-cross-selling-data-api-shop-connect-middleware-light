@@ -61,19 +61,23 @@ $this->Breadcrumbs->add([
                         'action'        => 'index',
                     ],
                 ]); ?>
+                <?php $this->Form->setTemplates(['inputGroupText' => '{{content}}']); ?>
                 <?= $this->Form->control('search', [
-                    'type'  => 'text',
-                    'value' => $this->getRequest()->getQuery('search'),
-                    'label' => false,
-                    'placeholder' => __d('bechlem_connect_light', 'Search') . '...',
-                    'prepend' => $this->Html->link(
+                    'type'          => 'text',
+                    'value'         => $this->getRequest()->getQuery('search'),
+                    'label'         => false,
+                    'placeholder'   => __d('bechlem_connect_light', 'Search') . '...',
+                    'prepend'       => $this->Html->link(
                         $this->Html->icon('plus') . ' ' . __d('bechlem_connect_light', 'Add domain'),
                         [
                             'plugin'        => 'BechlemConnectLight',
                             'controller'    => 'Domains',
                             'action'        => 'add',
                         ],
-                        ['escapeTitle' => false]),
+                        [
+                            'class'         => 'btn btn-' . h($backendButtonColor),
+                            'escapeTitle'   => false,
+                        ]),
                     'append' => $this->Form->button(
                             __d('bechlem_connect_light', 'Filter'),
                             ['class' => 'btn btn-' . h($backendButtonColor)]

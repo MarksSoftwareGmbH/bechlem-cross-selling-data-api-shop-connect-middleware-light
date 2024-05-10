@@ -61,6 +61,7 @@ $this->Breadcrumbs->add([
                         'action'        => 'index',
                     ],
                 ]); ?>
+                <?php $this->Form->setTemplates(['inputGroupText' => '{{content}}']); ?>
                 <?= $this->Form->control('search', [
                     'type'          => 'text',
                     'value'         => $this->getRequest()->getQuery('search'),
@@ -73,8 +74,10 @@ $this->Breadcrumbs->add([
                             'controller'    => 'ProductProductTypeAttributeValues',
                             'action'        => 'add',
                         ],
-                        ['escape' => false]
-                    ),
+                        [
+                            'class'         => 'btn btn-' . h($backendButtonColor),
+                            'escapeTitle'   => false,
+                        ]),
                     'append' => $this->Form->button(
                             __d('bechlem_connect_light', 'Filter'),
                             ['class' => 'btn btn-' . h($backendButtonColor)]

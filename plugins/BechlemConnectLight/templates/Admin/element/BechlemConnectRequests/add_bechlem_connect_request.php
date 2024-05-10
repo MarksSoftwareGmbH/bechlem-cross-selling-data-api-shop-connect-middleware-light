@@ -23,6 +23,15 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+use Cake\Core\Configure;
+
+// Get session object
+$session = $this->getRequest()->getSession();
+
+$backendButtonColor = 'light';
+if (Configure::check('BechlemConnectLight.settings.backendButtonColor')):
+    $backendButtonColor = Configure::read('BechlemConnectLight.settings.backendButtonColor');
+endif;
 ?>
 <div class="input-group-prepend">
     <?= $this->Html->link(
@@ -33,8 +42,8 @@
             'action'        => 'add',
         ],
         [
-            'class'     => 'btn btn-default',
-            'type'      => 'button',
-            'escape'    => false
+            'class'         => 'btn btn-' . h($backendButtonColor),
+            'type'          => 'button',
+            'escapeTitle'   => false
         ]); ?>
 </div>
