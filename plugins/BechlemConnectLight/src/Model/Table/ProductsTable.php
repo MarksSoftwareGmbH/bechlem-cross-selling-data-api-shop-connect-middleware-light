@@ -356,6 +356,10 @@ class ProductsTable extends Table
      */
     public function findPromoted(SelectQuery $query, array $options)
     {
+        if (array_key_exists('options', $options)) {
+            $options = $options['options'];
+        }
+
         $query
             ->contain([
                 'ProductTypes'                      => ['ProductTypeAttributes'],
@@ -380,6 +384,10 @@ class ProductsTable extends Table
      */
     public function findIndex(SelectQuery $query, array $options)
     {
+        if (array_key_exists('options', $options)) {
+            $options = $options['options'];
+        }
+
         $query
             ->contain([
                 'ProductTypes'                      => ['ProductTypeAttributes'],
@@ -408,6 +416,10 @@ class ProductsTable extends Table
      */
     public function findAllProducts(SelectQuery $query, array $options)
     {
+        if (array_key_exists('options', $options)) {
+            $options = $options['options'];
+        }
+
         $query
             ->contain([
                 'ProductTypes'                      => ['ProductTypeAttributes'],
@@ -426,6 +438,10 @@ class ProductsTable extends Table
      */
     public function findByProductType(SelectQuery $query, array $options)
     {
+        if (array_key_exists('options', $options)) {
+            $options = $options['options'];
+        }
+
         $query
             ->contain([
                 'ProductTypes'                      => ['ProductTypeAttributes'],
@@ -458,6 +474,10 @@ class ProductsTable extends Table
      */
     public function findByProductTypeAndId(SelectQuery $query, array $options)
     {
+        if (array_key_exists('options', $options)) {
+            $options = $options['options'];
+        }
+
         $query
             ->matching('ProductProductTypeAttributeValues.ProductTypeAttributes.ProductTypes',
                 function ($q) use ($options) {
@@ -486,6 +506,10 @@ class ProductsTable extends Table
      */
     public function findBySlug(SelectQuery $query, array $options)
     {
+        if (array_key_exists('options', $options)) {
+            $options = $options['options'];
+        }
+
         $query
             ->contain([
                 'ProductTypes'                      => ['ProductTypeAttributes'],
@@ -513,6 +537,10 @@ class ProductsTable extends Table
      */
     public function findBySlugAndId(SelectQuery $query, array $options)
     {
+        if (array_key_exists('options', $options)) {
+            $options = $options['options'];
+        }
+
         $query
             ->contain([
                 'ProductTypes' => ['ProductTypeAttributes'],
