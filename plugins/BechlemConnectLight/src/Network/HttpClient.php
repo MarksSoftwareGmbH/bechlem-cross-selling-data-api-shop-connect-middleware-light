@@ -44,11 +44,15 @@ class HttpClient extends Client
      * @param string $method HTTP method.
      * @param string $url URL to request.
      * @param mixed $data The request body.
-     * @param array $options The options to use. Contains auth, proxy, etc.
+     * @param array<string, mixed> $options The options to use. Contains auth, proxy, etc.
      * @return \Cake\Http\Client\Response
      */
-    protected function _doRequest(string $method, string $url, $data, $options): Response
+    protected function _doRequest(string $method, string $url, mixed $data, array $options): Response
     {
+        if (is_null($data)) {
+            $data = [];
+        }
+
         if (Configure::read('debug') === true) {
             Log::write(LogLevel::INFO, $method);
             Log::write(LogLevel::INFO, $url);
