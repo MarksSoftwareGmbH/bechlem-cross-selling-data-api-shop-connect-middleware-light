@@ -204,7 +204,13 @@ $this->Breadcrumbs->add([
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Shipping country'); ?></dt>
                     <dd class="col-sm-9"><?= empty($registration->shipping_country)? '-': h($registration->shipping_country); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Newsletter email'); ?></dt>
-                    <dd class="col-sm-9"><?= empty($registration->newsletter_email)? '-': h($registration->newsletter_email); ?></dd>
+                    <dd class="col-sm-9">
+                        <?php if (!empty($registration->newsletter_email)): ?>
+                            <?= $registration->has('newsletter_email')? $this->Html->link(h($registration->newsletter_email), 'mailto:' . h($registration->newsletter_email)): '-'; ?>
+                        <?php else: ?>
+                            -
+                        <?php endif; ?>
+                    </dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Remark'); ?></dt>
                     <dd class="col-sm-9"><?= empty($registration->remark)? '-': h($registration->remark); ?></dd>
                     <dt class="col-sm-3"><?= __d('bechlem_connect_light', 'Register excerpt'); ?></dt>

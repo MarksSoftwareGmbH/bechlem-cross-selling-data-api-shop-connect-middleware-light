@@ -370,7 +370,7 @@ class AppController extends BaseController
          *   Use false to remove the current theme.
          * @return string|$this
          */
-        if (in_array($this->getRequest()->getParam('prefix'), ['admin'])) {
+        if (in_array($this->getRequest()->getParam('prefix'), ['Admin'])) {
             // BechlemConnectLight default backend theme
             $backendTheme = 'BechlemConnectLight';
 

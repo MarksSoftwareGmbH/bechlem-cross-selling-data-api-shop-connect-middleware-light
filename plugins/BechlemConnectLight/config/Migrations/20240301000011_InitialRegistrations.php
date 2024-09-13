@@ -83,7 +83,7 @@ class InitialRegistrations extends AbstractMigration
             ->addColumn('billing_country', 'string', ['limit' => 255])
             ->addColumn('shipping_name', 'string', ['limit' => 255, 'null' => true])
             ->addColumn('shipping_name_addition', 'string', ['limit' => 255, 'null' => true])
-            ->addColumn('shipping_management', 'string', ['limit' => 255])
+            ->addColumn('shipping_management', 'string', ['limit' => 255, 'null' => true])
             ->addColumn('shipping_email', 'string', ['limit' => 255, 'null' => true])
             ->addColumn('shipping_telephone', 'string', ['limit' => 255, 'null' => true])
             ->addColumn('shipping_mobilephone', 'string', ['limit' => 255, 'null' => true])
