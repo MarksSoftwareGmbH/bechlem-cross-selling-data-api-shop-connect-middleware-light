@@ -39,7 +39,7 @@ use Cake\ORM\Entity;
  * @property string|null $oem_nr
  * @property string|null $description
  * @property string|null $ve
-* @property string|null $language
+ * @property string|null $language
  * @property \Cake\I18n\Time $created
  * @property int $created_by
  * @property \Cake\I18n\Time $modified

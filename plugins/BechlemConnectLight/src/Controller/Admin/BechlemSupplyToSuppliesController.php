@@ -29,7 +29,6 @@ namespace BechlemConnectLight\Controller\Admin;
 use BechlemConnectLight\Controller\Admin\AppController;
 use BechlemConnectLight\Utility\BechlemConnectLight;
 use Cake\Http\CallbackStream;
-use Cake\I18n\DateTime;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\IOFactory;
 
@@ -118,7 +117,7 @@ class BechlemSupplyToSuppliesController extends AppController
         return $this->redirect($this->referer());
     }
 
-/**
+    /**
      * Export xlsx method
      *
      * @return \Cake\Http\Response|void Redirects to index.
