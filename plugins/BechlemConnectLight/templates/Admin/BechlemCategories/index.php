@@ -61,6 +61,7 @@ $this->Breadcrumbs->add([
                         'action'        => 'index',
                     ],
                 ]); ?>
+                <?php $this->Form->setTemplates(['inputGroupText' => '{{content}}']); ?>
                 <?= $this->Form->control('search', [
                     'type'          => 'text',
                     'value'         => $this->getRequest()->getQuery('search'),
@@ -76,7 +77,7 @@ $this->Breadcrumbs->add([
                         [
                             'confirm'   => __d('bechlem_connect_light', 'Are you sure you want update all categories?'),
                             'block'     => true,
-                            'class'     => 'run',
+                            'class'     => 'run btn btn-' . h($backendButtonColor),
                             'escape'    => false,
                         ]
                     ),

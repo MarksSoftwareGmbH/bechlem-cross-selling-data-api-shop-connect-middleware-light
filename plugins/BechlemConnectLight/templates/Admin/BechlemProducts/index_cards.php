@@ -23,6 +23,15 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+use Cake\Core\Configure;
+
+// Get session object
+$session = $this->getRequest()->getSession();
+
+$backendButtonColor = 'light';
+if (Configure::check('BechlemConnectLight.settings.backendButtonColor')):
+    $backendButtonColor = Configure::read('BechlemConnectLight.settings.backendButtonColor');
+endif;
 
 // Title
 $this->assign('title', $this->BechlemConnectLight->readCamel($this->getRequest()->getParam('controller'))
@@ -52,6 +61,7 @@ $this->Breadcrumbs->add([
                         'action'        => 'indexCards',
                     ],
                 ]); ?>
+                <?php $this->Form->setTemplates(['inputGroupText' => '{{content}}']); ?>
                 <?= $this->Form->control('search', [
                     'type'          => 'text',
                     'value'         => $this->getRequest()->getQuery('search'),
@@ -67,13 +77,13 @@ $this->Breadcrumbs->add([
                         [
                             'confirm'   => __d('bechlem_connect_light', 'Are you sure you want update all products?'),
                             'block'     => true,
-                            'class'     => 'run',
+                            'class'     => 'run btn btn-' . h($backendButtonColor),
                             'escape'    => false,
                         ]
                     ),
                     'append' => $this->Form->button(
                             __d('bechlem_connect_light', 'Filter'),
-                            ['class' => 'btn btn-default']
+                            ['class' => 'btn btn-' . h($backendButtonColor)]
                         )
                         . ' '
                         . $this->Html->link(
@@ -84,10 +94,80 @@ $this->Breadcrumbs->add([
                                 'action'        => 'indexCards',
                             ],
                             [
-                                'class'     => 'btn btn-default',
+                                'class'     => 'btn btn-' . h($backendButtonColor),
                                 'escape'    => false,
                             ]
-                        ),
+                        )
+                        . ' '
+                        . '<div class="btn-group dropleft">'
+                        . $this->Html->link(
+                            $this->Html->tag('span', '', ['class' => 'caret']) . ' ' . $this->Html->icon('download') . ' ' . __d('bechlem_connect_light', 'Download'),
+                            '#',
+                            [
+                                'type'          => 'button',
+                                'class'         => 'dropdown-toggle btn btn-' . h($backendButtonColor),
+                                'id'            => 'dropdownMenu',
+                                'data-toggle'   => 'dropdown',
+                                'aria-haspopup' => true,
+                                'aria-expanded' => false,
+                                'escapeTitle'   => false,
+                                'title'         => __d('bechlem_connect_light', 'Download'),
+                            ]
+                        )
+                        . '<div class="dropdown-menu" aria-labelledby="dropdownMenu">'
+                        . $this->Html->link(
+                            __d('bechlem_connect_light', 'XLSX'),
+                            [
+                                'plugin'        => 'BechlemConnectLight',
+                                'controller'    => 'BechlemProducts',
+                                'action'        => 'exportXlsx',
+                            ],
+                            [
+                                'class'         => 'dropdown-item',
+                                'escapeTitle'   => false,
+                                'title'         => __d('bechlem_connect_light', 'Export & download XLSX'),
+                            ])
+                        . $this->Html->link(
+                            __d('bechlem_connect_light', 'CSV'),
+                            [
+                                'plugin'        => 'BechlemConnectLight',
+                                'controller'    => 'BechlemProducts',
+                                'action'        => 'exportCsv',
+                                '_ext'          => 'csv',
+                            ],
+                            [
+                                'class'         => 'dropdown-item',
+                                'escapeTitle'   => false,
+                                'title'         => __d('bechlem_connect_light', 'Export & download CSV'),
+                            ])
+                        . $this->Html->link(
+                            __d('bechlem_connect_light', 'XML'),
+                            [
+                                'plugin'        => 'BechlemConnectLight',
+                                'controller'    => 'BechlemProducts',
+                                'action'        => 'exportXml',
+                                '_ext'          => 'xml',
+                            ],
+                            [
+                                'class'         => 'dropdown-item',
+                                'escapeTitle'   => false,
+                                'title'         => __d('bechlem_connect_light', 'Export & download XML'),
+                            ])
+                        . $this->Html->link(
+                            __d('bechlem_connect_light', 'JSON'),
+                            [
+                                'plugin'        => 'BechlemConnectLight',
+                                'controller'    => 'BechlemProducts',
+                                'action'        => 'exportJson',
+                                '_ext'          => 'json',
+                            ],
+                            [
+                                'class'         => 'dropdown-item',
+                                'escapeTitle'   => false,
+                                'title'         => __d('bechlem_connect_light', 'Export & download JSON'),
+                            ])
+                        . '</div>'
+                        . '</div>',
                 ]); ?>
                 <?= $this->Form->end(); ?>
                 <?= $this->fetch('postLink'); ?>
