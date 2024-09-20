@@ -1,6 +1,6 @@
 {
-    "name": "BechlemConnectLight",
-    "short_name": "BechlemConnectLight",
+    "name": "MS GmbH",
+    "short_name": "MS GmbH",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -15,5 +15,6 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
+    "start_url": "https://www.marks-software.de",
     "display": "standalone"
 }

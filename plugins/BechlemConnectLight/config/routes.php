@@ -1470,6 +1470,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/product-conditions/{id}', ['controller' => 'ProductConditions', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-conditions', ['controller' => 'ProductConditions', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/product-conditions/{id}', ['controller' => 'ProductConditions', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-conditions/{id}', ['controller' => 'ProductConditions', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
 
             /*
              * ProductDeliveryTimes Controller
