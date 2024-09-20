@@ -28,6 +28,8 @@ namespace BechlemConnectLight\Controller\Api;
 
 use Cake\Datasource\ConnectionManager;
 use Cake\Event\Event;
+use Cake\View\JsonView;
+use Cake\View\XmlView;
 
 /**
  * Class ProductsController
@@ -80,6 +82,20 @@ class ProductsController extends AppController
         ],
         'order' => ['created' => 'DESC']
     ];
+
+    /**
+     * Get the View classes this controller can perform content negotiation with.
+     *
+     * Each view class must implement the `getContentType()` hook method
+     * to participate in negotiation.
+     *
+     * @see \Cake\Http\ContentTypeNegotiation
+     * @return list<string>
+     */
+    public function viewClasses(): array
+    {
+        return [JsonView::class, XmlView::class];
+    }
 
     /**
      * Index method

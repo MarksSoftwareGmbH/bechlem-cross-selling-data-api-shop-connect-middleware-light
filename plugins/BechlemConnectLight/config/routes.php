@@ -1350,6 +1350,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/countries/{id}', ['controller' => 'Countries', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/countries', ['controller' => 'Countries', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/countries/{id}', ['controller' => 'Countries', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/countries/{id}', ['controller' => 'Countries', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
 
             /*
              * Domains Controller
@@ -1358,6 +1368,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/domains', ['controller' => 'Domains', 'action' => 'index', '_ext' => 'json', '_method' => 'GET']);
             $builder
                 ->connect('/domains/{id}', ['controller' => 'Domains', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/domains', ['controller' => 'Domains', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/domains/{id}', ['controller' => 'Domains', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/domains/{id}', ['controller' => 'Domains', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
 
@@ -1370,6 +1390,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/locales/{id}', ['controller' => 'Locales', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/locales', ['controller' => 'Locales', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/locales/{id}', ['controller' => 'Locales', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/locales/{id}', ['controller' => 'Locales', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
 
             /*
              * Logs Controller
@@ -1378,6 +1408,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/logs', ['controller' => 'Logs', 'action' => 'index', '_ext' => 'json', '_method' => 'GET']);
             $builder
                 ->connect('/logs/{id}', ['controller' => 'Logs', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/logs', ['controller' => 'Logs', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/logs/{id}', ['controller' => 'Logs', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/logs/{id}', ['controller' => 'Logs', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
 
@@ -1390,6 +1430,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/product-brands/{id}', ['controller' => 'ProductBrands', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-brands', ['controller' => 'ProductBrands', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/product-brands/{id}', ['controller' => 'ProductBrands', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-brands/{id}', ['controller' => 'ProductBrands', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
 
             /*
              * ProductCategories Controller
@@ -1398,6 +1448,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/product-categories', ['controller' => 'ProductCategories', 'action' => 'index', '_ext' => 'json', '_method' => 'GET']);
             $builder
                 ->connect('/product-categories/{id}', ['controller' => 'ProductCategories', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-categories', ['controller' => 'ProductCategories', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/product-categories/{id}', ['controller' => 'ProductCategories', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-categories/{id}', ['controller' => 'ProductCategories', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
 
@@ -1420,6 +1480,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/product-delivery-times/{id}', ['controller' => 'ProductDeliveryTimes', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-delivery-times', ['controller' => 'ProductDeliveryTimes', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/product-delivery-times/{id}', ['controller' => 'ProductDeliveryTimes', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-delivery-times/{id}', ['controller' => 'ProductDeliveryTimes', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
 
             /*
              * ProductIntrastatCodes Controller
@@ -1428,6 +1498,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/product-intrastat-codes', ['controller' => 'ProductIntrastatCodes', 'action' => 'index', '_ext' => 'json', '_method' => 'GET']);
             $builder
                 ->connect('/product-intrastat-codes/{id}', ['controller' => 'ProductIntrastatCodes', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-intrastat-codes', ['controller' => 'ProductIntrastatCodes', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/product-intrastat-codes/{id}', ['controller' => 'ProductIntrastatCodes', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-intrastat-codes/{id}', ['controller' => 'ProductIntrastatCodes', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
 
@@ -1440,6 +1520,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/product-manufacturers/{id}', ['controller' => 'ProductManufacturers', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-manufacturers', ['controller' => 'ProductManufacturers', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/product-manufacturers/{id}', ['controller' => 'ProductManufacturers', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-manufacturers/{id}', ['controller' => 'ProductManufacturers', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
 
             /*
              * ProductProductTypeAttributeValues Controller
@@ -1448,6 +1538,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/product-product-type-attribute-values', ['controller' => 'ProductProductTypeAttributeValues', 'action' => 'index', '_ext' => 'json', '_method' => 'GET']);
             $builder
                 ->connect('/product-product-type-attribute-values/{id}', ['controller' => 'ProductProductTypeAttributeValues', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-product-type-attribute-values', ['controller' => 'ProductProductTypeAttributeValues', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/product-product-type-attribute-values/{id}', ['controller' => 'ProductProductTypeAttributeValues', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-product-type-attribute-values/{id}', ['controller' => 'ProductProductTypeAttributeValues', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
 
@@ -1460,6 +1560,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/products/{id}', ['controller' => 'Products', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/products', ['controller' => 'Products', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/products/{id}', ['controller' => 'Products', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/products/{id}', ['controller' => 'Products', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
 
             /*
              * ProductSuppliers Controller
@@ -1468,6 +1578,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/product-suppliers', ['controller' => 'ProductSuppliers', 'action' => 'index', '_ext' => 'json', '_method' => 'GET']);
             $builder
                 ->connect('/product-suppliers/{id}', ['controller' => 'ProductSuppliers', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-suppliers', ['controller' => 'ProductSuppliers', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/product-suppliers/{id}', ['controller' => 'ProductSuppliers', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-suppliers/{id}', ['controller' => 'ProductSuppliers', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
 
@@ -1480,6 +1600,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/product-tax-classes/{id}', ['controller' => 'ProductTaxClasses', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-tax-classes', ['controller' => 'ProductTaxClasses', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/product-tax-classes/{id}', ['controller' => 'ProductTaxClasses', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-tax-classes/{id}', ['controller' => 'ProductTaxClasses', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
 
             /*
              * ProductTypeAttributeChoices Controller
@@ -1488,6 +1618,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/product-type-attribute-choices', ['controller' => 'ProductTypeAttributeChoices', 'action' => 'index', '_ext' => 'json', '_method' => 'GET']);
             $builder
                 ->connect('/product-type-attribute-choices/{id}', ['controller' => 'ProductTypeAttributeChoices', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-type-attribute-choices', ['controller' => 'ProductTypeAttributeChoices', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/product-type-attribute-choices/{id}', ['controller' => 'ProductTypeAttributeChoices', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-type-attribute-choices/{id}', ['controller' => 'ProductTypeAttributeChoices', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
 
@@ -1500,6 +1640,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/product-type-attributes/{id}', ['controller' => 'ProductTypeAttributes', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-type-attributes', ['controller' => 'ProductTypeAttributes', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/product-type-attributes/{id}', ['controller' => 'ProductTypeAttributes', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-type-attributes/{id}', ['controller' => 'ProductTypeAttributes', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
 
             /*
              * ProductTypes Controller
@@ -1508,6 +1658,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/product-types', ['controller' => 'ProductTypes', 'action' => 'index', '_ext' => 'json', '_method' => 'GET']);
             $builder
                 ->connect('/product-types/{id}', ['controller' => 'ProductTypes', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-types', ['controller' => 'ProductTypes', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/product-types/{id}', ['controller' => 'ProductTypes', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/product-types/{id}', ['controller' => 'ProductTypes', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
 
@@ -1520,6 +1680,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/registrations/{id}', ['controller' => 'Registrations', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/registrations', ['controller' => 'Registrations', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/registrations/{id}', ['controller' => 'Registrations', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/registrations/{id}', ['controller' => 'Registrations', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
 
             /*
              * RegistrationTypes Controller
@@ -1528,6 +1698,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/registration-types', ['controller' => 'RegistrationTypes', 'action' => 'index', '_ext' => 'json', '_method' => 'GET']);
             $builder
                 ->connect('/registration-types/{id}', ['controller' => 'RegistrationTypes', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/registration-types', ['controller' => 'RegistrationTypes', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/registration-types/{id}', ['controller' => 'RegistrationTypes', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/registration-types/{id}', ['controller' => 'RegistrationTypes', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
 
@@ -1540,6 +1720,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/roles/{id}', ['controller' => 'Roles', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/roles', ['controller' => 'Roles', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/roles/{id}', ['controller' => 'Roles', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/roles/{id}', ['controller' => 'Roles', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
 
             /*
              * Settings Controller
@@ -1550,6 +1740,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/settings/{id}', ['controller' => 'Settings', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/settings', ['controller' => 'Settings', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/settings/{id}', ['controller' => 'Settings', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/settings/{id}', ['controller' => 'Settings', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
 
             /*
             * UserProfiles Controller
@@ -1558,6 +1758,16 @@ $routes->plugin('BechlemConnectLight', ['path' => '/'], function (RouteBuilder $
                 ->connect('/user-profiles', ['controller' => 'UserProfiles', 'action' => 'index', '_ext' => 'json', '_method' => 'GET']);
             $builder
                 ->connect('/user-profiles/{id}', ['controller' => 'UserProfiles', 'action' => 'view', '_ext' => 'json', '_method' => 'GET'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/user-profiles', ['controller' => 'UserProfiles', 'action' => 'add', '_ext' => 'json', '_method' => 'POST']);
+            $builder
+                ->connect('/user-profiles/{id}', ['controller' => 'UserProfiles', 'action' => 'edit', '_ext' => 'json', '_method' => 'PUT'])
+                ->setPass(['id'])
+                ->setPatterns(['id' => '\d+']);
+            $builder
+                ->connect('/user-profiles/{id}', ['controller' => 'UserProfiles', 'action' => 'delete', '_ext' => 'json', '_method' => 'DELETE'])
                 ->setPass(['id'])
                 ->setPatterns(['id' => '\d+']);
 
