@@ -130,15 +130,6 @@ class UserProfilesController extends AppController
                 $select = explode(',', $this->getRequest()->getQuery('fields'));
                 $event->getSubject()->query->select($select);
             }
-            if (
-                ($this->getRequest()->getQuery('contain') !== null) &&
-                ($this->getRequest()->getQuery('contain') == 1)
-                ) {
-                    $event->getSubject()->query->contain([
-                        'Users.UserProfileDiaryEntries',
-                        'Users.UserProfileTimelineEntries',
-                    ]);
-                }
         });
 
         return $this->Crud->execute();
